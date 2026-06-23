@@ -1,0 +1,12 @@
+# Standard Python ignores
+__pycache__/
+*.pyc
+
+# Security: Ignore the environment file containing secrets
+.env
+
+# Local Data / Output files
+layer0_fingerprint_output.json
+
+# (Optional) If your test photos folder is inside this directory, ignore it too
+testphotos/
