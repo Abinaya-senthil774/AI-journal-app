@@ -31,33 +31,33 @@ JOURNAL_THEME_FAMILIES = {
     "creative": "vibrant multicolor",
 }
 
-def rgb_to_hex(rgb):
-    return "#{:02X}{:02X}{:02X}".format(*rgb)
+def rgb_to_hex(rgb): # rgb is a tuple of (R, G, B) values in the range 0-255
+    return "#{:02X}{:02X}{:02X}".format(*rgb) # returns a string like "#RRGGBB"
 
-def hex_to_rgb(hex_str):
-    h = hex_str.lstrip("#")
-    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+def hex_to_rgb(hex_str): # hex_str is a string like "#RRGGBB"
+    h = hex_str.lstrip("#") # remove the '#' if present
+    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4)) # convert to (R, G, B) tuple
 
-def extract_palette(image_path, color_count=5):
+def extract_palette(image_path, color_count=5): # Extracts a color palette from an image using ColorThief.
     ct = ColorThief(image_path)
-    return ct.get_palette(color_count=color_count, quality=1)
+    return ct.get_palette(color_count=color_count, quality=1) # returns a list of RGB tuples
 
-def rgb_to_lab(rgb):
-    r, g, b = [c / 255.0 for c in rgb]
-    return convert_color(sRGBColor(r, g, b), LabColor)
+def rgb_to_lab(rgb): # Converts an RGB color to Lab color space using colormath.
+    r, g, b = [c / 255.0 for c in rgb] # Normalize RGB values to [0, 1] range
+    return convert_color(sRGBColor(r, g, b), LabColor) # returns a LabColor object
 
-def rgb_to_hue(rgb):
-    r, g, b = [c / 255.0 for c in rgb]
-    h, _, _ = colorsys.rgb_to_hls(r, g, b)
+def rgb_to_hue(rgb): # Converts an RGB color to its hue in degrees (0-360).
+    r, g, b = [c / 255.0 for c in rgb] # Normalize RGB values to [0, 1] range 
+    h, _, _ = colorsys.rgb_to_hls(r, g, b) # Get hue in [0, 1] range
     return h * 360
 
-def classify_harmony(hues):
-    if len(hues) < 2:
-        return "monochrome"
-    hues = sorted(hues)
-    diffs = [(hues[i + 1] - hues[i]) % 360 for i in range(len(hues) - 1)]
-    diffs.append((hues[0] + 360 - hues[-1]) % 360)
-    spread = max(diffs)
+def classify_harmony(hues): # Classifies the harmony scheme based on the spread of hues.
+    if len(hues) < 2: # If there's only one hue, it's monochrome.
+        return "monochrome" 
+    hues = sorted(hues) # Sort hues in ascending order
+    diffs = [(hues[i + 1] - hues[i]) % 360 for i in range(len(hues) - 1)] # Calculate differences between consecutive hues, wrapping around at 360
+    diffs.append((hues[0] + 360 - hues[-1]) % 360) # Add the difference between the last and first hue to complete the circle
+    spread = max(diffs) # The largest gap between hues indicates the harmony type   
     if spread > 150:
         return "complementary"
     elif spread > 90:
