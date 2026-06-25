@@ -1,0 +1,22 @@
+{
+  "layer_1": {
+    "palette": [
+      "#6BA9C6",
+      "#242121",
+      "#253221",
+      "#383534",
+      "#8B8B8A"
+    ],
+    "theme": "Travel",
+    "theme_family": "warm earth tones, azure blues",
+    "harmony_scheme": "complementary",
+    "warmth": "cool",
+    "roles": {
+      "primary": "#6BA9C6",
+      "secondary": "#242121",
+      "accent": "#253221",
+      "bg": "#FAF8F4",
+      "text": "#1E1C1A"
+    }
+  }
+}

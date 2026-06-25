@@ -142,7 +142,6 @@ def get_image_fingerprint(client, image_path, retries=3):
 # ---------- MAIN PIPELINE ----------
 
 def build_layer0_output(photos_folder):
-    # The client will now securely look for GEMINI_API_KEY in the environment
     client = genai.Client()
 
     supported = (".jpg", ".jpeg", ".png")

@@ -1,0 +1,174 @@
+{
+  "session_meta": {
+    "timestamp": 1782375361.221903,
+    "pipeline_version": "1.0.0"
+  },
+  "layer_0": {
+    "session_id": "ee36f13b-3ed6-489b-a33b-952f44c4b593",
+    "photos": [
+      {
+        "id": "p1",
+        "path": "D:\\Research\\AI_memory_app\\instant deployement\\testphotos\\1.jpg",
+        "exif": {
+          "date": null,
+          "lat": null,
+          "lon": null,
+          "make": null,
+          "model": null
+        },
+        "semantic": {
+          "dominant_colors": [
+            "#70a3c4",
+            "#183c5a",
+            "#f5e0ad"
+          ],
+          "scene_type": "beach",
+          "mood": "peaceful",
+          "subjects": [
+            "palm trees",
+            "sky",
+            "beach"
+          ],
+          "time_of_day": "afternoon",
+          "weather": "cloudy",
+          "composition_notes": "landscape"
+        }
+      },
+      {
+        "id": "p2",
+        "path": "D:\\Research\\AI_memory_app\\instant deployement\\testphotos\\2.jpeg",
+        "exif": {
+          "date": "2026:03:07 21:20:48",
+          "lat": null,
+          "lon": null,
+          "make": "vivo\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+          "model": "V2225\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+        },
+        "semantic": {
+          "dominant_colors": [
+            "#121212",
+            "#282828",
+            "#565656"
+          ],
+          "scene_type": "city",
+          "mood": "peaceful",
+          "subjects": [
+            "car interior",
+            "street light"
+          ],
+          "time_of_day": "night",
+          "weather": "cloudy",
+          "composition_notes": "wide-shot"
+        }
+      },
+      {
+        "id": "p3",
+        "path": "D:\\Research\\AI_memory_app\\instant deployement\\testphotos\\3.jpg",
+        "exif": {
+          "date": null,
+          "lat": null,
+          "lon": null,
+          "make": null,
+          "model": null
+        },
+        "semantic": {
+          "dominant_colors": [
+            "#4c5244",
+            "#333a33",
+            "#6f786a"
+          ],
+          "scene_type": "forest",
+          "mood": "peaceful",
+          "subjects": [
+            "palm trees",
+            "foliage",
+            "rain drops"
+          ],
+          "time_of_day": "afternoon",
+          "weather": "rainy",
+          "composition_notes": "wide-shot"
+        }
+      },
+      {
+        "id": "p4",
+        "path": "D:\\Research\\AI_memory_app\\instant deployement\\testphotos\\4.jpg",
+        "exif": {
+          "date": null,
+          "lat": null,
+          "lon": null,
+          "make": null,
+          "model": null
+        },
+        "semantic": {
+          "dominant_colors": [
+            "#2c2c2c",
+            "#c47f55",
+            "#6b5c49"
+          ],
+          "scene_type": "forest",
+          "mood": "peaceful",
+          "subjects": [
+            "streetlights",
+            "trees",
+            "sky"
+          ],
+          "time_of_day": "evening",
+          "weather": "cloudy",
+          "composition_notes": "landscape"
+        }
+      },
+      {
+        "id": "p5",
+        "path": "D:\\Research\\AI_memory_app\\instant deployement\\testphotos\\5.jpg",
+        "exif": {
+          "date": null,
+          "lat": null,
+          "lon": null,
+          "make": null,
+          "model": null
+        },
+        "semantic": {
+          "dominant_colors": [
+            "#4e5c66",
+            "#a1a6a8",
+            "#8a969e"
+          ],
+          "scene_type": "beach",
+          "mood": "peaceful",
+          "subjects": [
+            "ocean",
+            "sky",
+            "clouds"
+          ],
+          "time_of_day": "afternoon",
+          "weather": "cloudy",
+          "composition_notes": "landscape"
+        }
+      }
+    ],
+    "token_usage": {
+      "total_input_tokens": 2040,
+      "total_output_tokens": 506
+    }
+  },
+  "layer_1": {
+    "palette": [
+      "#70A3C4",
+      "#121212",
+      "#4C5244",
+      "#2C2C2C",
+      "#4E5C66"
+    ],
+    "theme": "Travel",
+    "theme_family": "warm earth tones, azure blues",
+    "harmony_scheme": "complementary",
+    "warmth": "cool",
+    "roles": {
+      "primary": "#70A3C4",
+      "secondary": "#121212",
+      "accent": "#4C5244",
+      "bg": "#FAF8F4",
+      "text": "#1E1C1A"
+    }
+  }
+}

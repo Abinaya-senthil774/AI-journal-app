@@ -1,0 +1,117 @@
+<html><head><title>Pipeline Debug Dashboard</title><style>
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8fafc; padding: 30px; margin: 0; color: #1e293b; }
+.section { background: white; padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+h1, h2, h3 { margin-top: 0; color: #0f172a; }
+.photo-card { display: flex; border-bottom: 1px solid #e2e8f0; padding: 15px 0; gap: 20px; }
+.photo-card:last-child { border-0; }
+.swatch { display: inline-block; width: 45px; height: 45px; margin-right: 8px; border-radius: 6px; border: 1px solid #cbd5e1; vertical-align: middle; }
+.role-box { display: inline-block; width: 120px; text-align: center; margin-right: 15px; font-size: 12px; font-weight: bold; }
+.role-circle { width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 8px; border: 2px solid #e2e8f0; }
+pre { background: #1e1e2e; color: #cdd6f4; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 13px; }
+grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+</style></head><body>
+<h1>System Pipeline Visual Debugger (Session: ee36f13b-3ed6-489b-a33b-952f44c4b593)</h1>
+<div class='section'><h2>Layer 0: Ingestion & Pre-processing Verification</h2>
+<div class='photo-card'>
+<div style='flex: 1;'><strong>File:</strong> 1.jpg<br>
+<small>📅 EXIF Date: None | 📍 GPS: None, None</small></div>
+<div style='flex: 1;'><strong>Semantic Signature:</strong><br>
+🏷️ Type: beach | ✨ Mood: peaceful<br>👥 Subjects: palm trees, sky, beach</div>
+<div style='flex: 1;'><strong>Extracted Dominant Hexes:</strong><br>
+<div class='swatch' style='background: #70a3c4' title='#70a3c4'></div>
+<div class='swatch' style='background: #183c5a' title='#183c5a'></div>
+<div class='swatch' style='background: #f5e0ad' title='#f5e0ad'></div>
+</div></div>
+<div class='photo-card'>
+<div style='flex: 1;'><strong>File:</strong> 2.jpeg<br>
+<small>📅 EXIF Date: 2026:03:07 21:20:48 | 📍 GPS: None, None</small></div>
+<div style='flex: 1;'><strong>Semantic Signature:</strong><br>
+🏷️ Type: city | ✨ Mood: peaceful<br>👥 Subjects: car interior, street light</div>
+<div style='flex: 1;'><strong>Extracted Dominant Hexes:</strong><br>
+<div class='swatch' style='background: #121212' title='#121212'></div>
+<div class='swatch' style='background: #282828' title='#282828'></div>
+<div class='swatch' style='background: #565656' title='#565656'></div>
+</div></div>
+<div class='photo-card'>
+<div style='flex: 1;'><strong>File:</strong> 3.jpg<br>
+<small>📅 EXIF Date: None | 📍 GPS: None, None</small></div>
+<div style='flex: 1;'><strong>Semantic Signature:</strong><br>
+🏷️ Type: forest | ✨ Mood: peaceful<br>👥 Subjects: palm trees, foliage, rain drops</div>
+<div style='flex: 1;'><strong>Extracted Dominant Hexes:</strong><br>
+<div class='swatch' style='background: #4c5244' title='#4c5244'></div>
+<div class='swatch' style='background: #333a33' title='#333a33'></div>
+<div class='swatch' style='background: #6f786a' title='#6f786a'></div>
+</div></div>
+<div class='photo-card'>
+<div style='flex: 1;'><strong>File:</strong> 4.jpg<br>
+<small>📅 EXIF Date: None | 📍 GPS: None, None</small></div>
+<div style='flex: 1;'><strong>Semantic Signature:</strong><br>
+🏷️ Type: forest | ✨ Mood: peaceful<br>👥 Subjects: streetlights, trees, sky</div>
+<div style='flex: 1;'><strong>Extracted Dominant Hexes:</strong><br>
+<div class='swatch' style='background: #2c2c2c' title='#2c2c2c'></div>
+<div class='swatch' style='background: #c47f55' title='#c47f55'></div>
+<div class='swatch' style='background: #6b5c49' title='#6b5c49'></div>
+</div></div>
+<div class='photo-card'>
+<div style='flex: 1;'><strong>File:</strong> 5.jpg<br>
+<small>📅 EXIF Date: None | 📍 GPS: None, None</small></div>
+<div style='flex: 1;'><strong>Semantic Signature:</strong><br>
+🏷️ Type: beach | ✨ Mood: peaceful<br>👥 Subjects: ocean, sky, clouds</div>
+<div style='flex: 1;'><strong>Extracted Dominant Hexes:</strong><br>
+<div class='swatch' style='background: #4e5c66' title='#4e5c66'></div>
+<div class='swatch' style='background: #a1a6a8' title='#a1a6a8'></div>
+<div class='swatch' style='background: #8a969e' title='#8a969e'></div>
+</div></div>
+<p><small>Token Footprint: Input: 2040 | Output: 506</small></p></div>
+<div class='section'><h2>Layer 1: Color Intelligence & Architecture Output</h2>
+<p><strong>Theme Family Chosen:</strong> Travel (warm earth tones, azure blues)</p>
+<p><strong>Evaluated Rules:</strong> Harmony Scheme: <code>complementary</code> | Structural Temperature: <code>cool</code></p>
+<h3>Determined UI Asset Roles</h3><div>
+<div class='role-box'><div class='role-circle' style='background: #70A3C4'></div>PRIMARY<br><code>#70A3C4</code></div>
+<div class='role-box'><div class='role-circle' style='background: #121212'></div>SECONDARY<br><code>#121212</code></div>
+<div class='role-box'><div class='role-circle' style='background: #4C5244'></div>ACCENT<br><code>#4C5244</code></div>
+<div class='role-box'><div class='role-circle' style='background: #FAF8F4'></div>BG<br><code>#FAF8F4</code></div>
+<div class='role-box'><div class='role-circle' style='background: #1E1C1A'></div>TEXT<br><code>#1E1C1A</code></div>
+</div></div>
+<div class='section'><h2>Downstream Layer Handshakes (Contract API Preview)</h2>
+<pre>{
+  "L2_Layout": {
+    "family_trigger": "Travel"
+  },
+  "L3_Decorations": {
+    "scene_type_context": [
+      "beach",
+      "city",
+      "forest",
+      "forest",
+      "beach"
+    ],
+    "color_warmth_rule": "cool"
+  },
+  "L4_Storytelling": {
+    "mood_context": [
+      "peaceful",
+      "peaceful",
+      "peaceful",
+      "peaceful",
+      "peaceful"
+    ],
+    "gps_stamps": [
+      null,
+      "2026:03:07 21:20:48",
+      null,
+      null,
+      null
+    ]
+  },
+  "L5_Rendering": {
+    "css_injections": {
+      "primary": "#70A3C4",
+      "secondary": "#121212",
+      "accent": "#4C5244",
+      "bg": "#FAF8F4",
+      "text": "#1E1C1A"
+    }
+  }
+}</pre></div>
+</body></html>
