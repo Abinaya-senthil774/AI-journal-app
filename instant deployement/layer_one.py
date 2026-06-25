@@ -69,7 +69,7 @@ def classify_harmony(hues): # Classifies the harmony scheme based on the spread 
 def is_warm(hue):
     return hue <= 70 or hue >= 320
 
-def weighted_average_palette(photo_palettes):
+def weighted_average_palette(photo_palettes): # Computes a weighted average palette from multiple photo palettes, giving higher weight to colors that appear earlier in each palette.
     weighted = {}
     for palette in photo_palettes:
         for rank, rgb in enumerate(palette):
@@ -78,13 +78,13 @@ def weighted_average_palette(photo_palettes):
     ranked = sorted(weighted.items(), key=lambda kv: kv[1], reverse=True)
     return [rgb for rgb, _ in ranked]
 
-def apply_60_30_10(ranked_colors):
+def apply_60_30_10(ranked_colors): # Applies the 60-30-10 rule to select primary, secondary, and accent colors.
     primary = ranked_colors[0]
     secondary = ranked_colors[1] if len(ranked_colors) > 1 else ranked_colors[0]
     accent = ranked_colors[2] if len(ranked_colors) > 2 else ranked_colors[-1]
     return primary, secondary, accent
 
-def pick_bg_and_text(primary):
+def pick_bg_and_text(primary): # Selects background and text colors based on the primary color.
     lab = rgb_to_lab(primary)
     if lab.lab_l > 60:
         return (250, 248, 244), (30, 28, 26)
