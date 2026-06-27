@@ -1,0 +1,109 @@
+{
+  "file_reference": "Memory Weave - Portrait templates 4.pdf",
+  "templates": [
+    {
+      "id": "mw_portrait_4_page_1",
+      "name": "Romantic Snippets & Cutouts",
+      "collection": "Memory Weave Portrait 4",
+      "canvas": { "width_px": 1200, "height_px": 1600, "aspect_ratio": "3:4" },
+      "background": { "type": "solid", "color": "#DDD9CE" },
+      "layout_elements": [
+        {
+          "id": "polaroid_top_left",
+          "type": "photo_frame",
+          "style": "polaroid_with_heart",
+          "coordinates": { "top": "2%", "left": "0%", "width": "52%", "height": "38%" },
+          "zIndex": 1,
+          "inner_elements": [
+            { "id": "love_text", "type": "text_label", "text_content": "Love text", "coordinates": { "top": "4%", "left": "6%" } },
+            { "id": "cutout_image_green", "type": "image_placeholder", "color": "#39B54A", "label": "Cutout Image", "coordinates": { "top": "10%", "left": "12%", "width": "27%", "height": "22%" } }
+          ]
+        },
+        { "id": "doodle_dashed_top", "type": "doodle_placeholder", "style": "dashed_box", "coordinates": { "top": "1%", "left": "40%", "width": "10%", "height": "13%" }, "zIndex": 2 },
+        { "id": "meta_timestamp", "type": "text_area", "placeholder_text": "Timestamp, date, occassion", "coordinates": { "top": "13%", "left": "62%", "width": "25%", "height": "10%" } },
+        { "id": "doodle_circle_top_right", "type": "doodle_placeholder", "style": "circle", "color": "#53A2BE", "coordinates": { "top": "0%", "left": "83%", "width": "17%", "height": "12%" } },
+        { "id": "text_snippets_middle", "type": "text_area", "placeholder_text": "Snippets of texts/ compliments, extracted from a page cutout text innum text texts", "coordinates": { "top": "34%", "left": "58%", "width": "35%", "height": "32%" } },
+        { "id": "large_image_cutout_left", "type": "image_placeholder", "style": "dashed_cutout", "label": "Image Cutout", "coordinates": { "top": "45%", "left": "0%", "width": "36%", "height": "49%" }, "zIndex": 1 },
+        { "id": "sticker_center_purple_s", "type": "sticker", "style": "circle", "color": "#CE9BE4", "text_content": "S", "coordinates": { "top": "44%", "left": "28%", "width": "17%", "height": "11%" }, "zIndex": 3 },
+        { "id": "photo_polaroid_her", "type": "photo_frame", "style": "polaroid_dark", "label": "Photo of Her", "coordinates": { "top": "70%", "left": "62%", "width": "36%", "height": "30%" }, "zIndex": 2 },
+        { "id": "doodle_rotated_bottom", "type": "doodle_placeholder", "style": "dashed_box_rotated", "coordinates": { "top": "86%", "left": "29%", "width": "12%", "height": "14%" }, "rotation": "12deg", "zIndex": 2 }
+      ]
+    },
+    {
+      "id": "mw_portrait_4_page_2",
+      "name": "His & Theirs Story Spread",
+      "collection": "Memory Weave Portrait 4",
+      "canvas": { "width_px": 1200, "height_px": 1600, "aspect_ratio": "3:4" },
+      "background": { "type": "solid", "color": "#E5E2D9" },
+      "layout_elements": [
+        { "id": "handwritten_love_header", "type": "text_area", "placeholder_text": "Handwritten text of lovesss", "coordinates": { "top": "2%", "left": "5%", "width": "40%", "height": "8%" } },
+        { "id": "doodle_top_right_accent", "type": "doodle_placeholder", "style": "sketch", "coordinates": { "top": "1%", "left": "70%", "width": "15%", "height": "8%" } },
+        { "id": "photo_grid_top_left", "type": "photo_frame", "label": "Photo", "coordinates": { "top": "12%", "left": "5%", "width": "30%", "height": "20%" } },
+        { "id": "photo_grid_top_right", "type": "photo_frame", "label": "Photo", "coordinates": { "top": "12%", "left": "40%", "width": "30%", "height": "20%" } },
+        { "id": "text_oo_fragments", "type": "text_area", "placeholder_text": "texts oo\ntexts", "coordinates": { "top": "15%", "left": "75%", "width": "20%", "height": "10%" } },
+        { "id": "photo_focus_him", "type": "photo_frame", "label": "Photo of him", "coordinates": { "top": "35%", "left": "5%", "width": "45%", "height": "30%" } },
+        { "id": "text_compliments_mid_right", "type": "text_area", "placeholder_text": "Snippets of texts/ compliments", "coordinates": { "top": "38%", "left": "55%", "width": "40%", "height": "12%" } },
+        { "id": "text_cutout_block_mid", "type": "text_area", "placeholder_text": "Snippets of texts/ compliments, extracted from a page cutout", "coordinates": { "top": "52%", "left": "55%", "width": "40%", "height": "15%" } },
+        { "id": "doodle_center_mid", "type": "doodle_placeholder", "style": "sketch", "coordinates": { "top": "68%", "left": "10%", "width": "25%", "height": "8%" } },
+        { "id": "text_love_compliments_lower", "type": "text_area", "placeholder_text": "Snippets of texts/ compliments or something for Love", "coordinates": { "top": "70%", "left": "45%", "width": "50%", "height": "15%" } },
+        { "id": "doodle_bottom_left_footer", "type": "doodle_placeholder", "style": "abstract", "coordinates": { "top": "88%", "left": "5%", "width": "20%", "height": "10%" } },
+        { "id": "text_footer_compliments", "type": "text_area", "placeholder_text": "Snippets of texts/ compliments", "coordinates": { "top": "88%", "left": "35%", "width": "40%", "height": "8%" } }
+      ]
+    },
+    {
+      "id": "mw_portrait_4_page_3",
+      "name": "Proposal & Togetherness Gallery",
+      "collection": "Memory Weave Portrait 4",
+      "canvas": { "width_px": 1200, "height_px": 1600, "aspect_ratio": "3:4" },
+      "background": { "type": "solid", "color": "#DFDBD0" },
+      "layout_elements": [
+        { "id": "text_header_snippets", "type": "text_area", "placeholder_text": "Snippets of texts/ compliments", "coordinates": { "top": "2%", "left": "5%", "width": "45%", "height": "8%" } },
+        { "id": "sticker_rose_top", "type": "sticker", "style": "floral_rose", "label": "Sticker Rose or something for Love", "coordinates": { "top": "1%", "left": "60%", "width": "35%", "height": "10%" } },
+        { "id": "photo_together_1", "type": "photo_frame", "label": "Image of together", "coordinates": { "top": "12%", "left": "5%", "width": "42%", "height": "25%" } },
+        { "id": "sticker_rose_mid", "type": "sticker", "style": "floral_rose", "label": "Sticker Rose or something for Love", "coordinates": { "top": "15%", "left": "52%", "width": "43%", "height": "10%" } },
+        { "id": "text_mid_compliments", "type": "text_area", "placeholder_text": "Snippets of texts/ compliments", "coordinates": { "top": "28%", "left": "52%", "width": "43%", "height": "10%" } },
+        { "id": "photo_together_2", "type": "photo_frame", "label": "Image of together", "coordinates": { "top": "40%", "left": "5%", "width": "42%", "height": "25%" } },
+        { "id": "sticker_bouquet", "type": "sticker", "style": "bouquet", "label": "Bouquet Sticker", "coordinates": { "top": "40%", "left": "52%", "width": "43%", "height": "15%" } },
+        { "id": "sticker_rose_lower", "type": "sticker", "style": "floral_rose", "label": "Sticker Rose or something for Love", "coordinates": { "top": "58%", "left": "52%", "width": "43%", "height": "10%" } },
+        { "id": "doodle_mid_right", "type": "doodle_placeholder", "style": "sketch", "coordinates": { "top": "70%", "left": "75%", "width": "20%", "height": "6%" } },
+        { "id": "cutout_lifesize_1", "type": "image_placeholder", "style": "lifesize_cutout", "label": "Life size Image Cutout", "coordinates": { "top": "70%", "left": "5%", "width": "40%", "height": "28%" } },
+        { "id": "photo_together_3", "type": "photo_frame", "label": "Image of together", "coordinates": { "top": "78%", "left": "50%", "width": "22%", "height": "18%" } },
+        { "id": "photo_together_4", "type": "photo_frame", "label": "Image of together", "coordinates": { "top": "78%", "left": "75%", "width": "22%", "height": "18%" } }
+      ]
+    },
+    {
+      "id": "mw_portrait_4_page_4",
+      "name": "The Ring & Proposal Lifesize Spread",
+      "collection": "Memory Weave Portrait 4",
+      "canvas": { "width_px": 1200, "height_px": 1600, "aspect_ratio": "3:4" },
+      "background": { "type": "solid", "color": "#DDD9CE" },
+      "layout_elements": [
+        { "id": "photo_proposal", "type": "photo_frame", "label": "IMage of proposal", "coordinates": { "top": "2%", "left": "5%", "width": "50%", "height": "30%" } },
+        { "id": "text_proposal_compliments", "type": "text_area", "placeholder_text": "Snippets of texts/ compliments", "coordinates": { "top": "5%", "left": "60%", "width": "35%", "height": "12%" } },
+        { "id": "doodle_upper_right", "type": "doodle_placeholder", "style": "accent", "coordinates": { "top": "20%", "left": "70%", "width": "20%", "height": "8%" } },
+        { "id": "cutout_lifesize_ring", "type": "image_placeholder", "style": "lifesize_cutout_closeup", "label": "Life size Image Closeup of Ring Cutout", "coordinates": { "top": "35%", "left": "5%", "width": "45%", "height": "35%" } },
+        { "id": "photo_together_final", "type": "photo_frame", "label": "Image of together", "coordinates": { "top": "35%", "left": "55%", "width": "40%", "height": "25%" } },
+        { "id": "text_mid_lower_compliments", "type": "text_area", "placeholder_text": "Snippets of texts/ compliments", "coordinates": { "top": "62%", "left": "55%", "width": "40%", "height": "10%" } },
+        { "id": "sticker_rose_final", "type": "sticker", "style": "floral_rose", "label": "Sticker Rose or something for Love", "coordinates": { "top": "74%", "left": "5%", "width": "45%", "height": "10%" } },
+        { "id": "text_bottom_compliments", "type": "text_area", "placeholder_text": "Snippets of texts/ compliments", "coordinates": { "top": "74%", "left": "55%", "width": "40%", "height": "10%" } },
+        { "id": "cutout_lifesize_final", "type": "image_placeholder", "style": "lifesize_cutout", "label": "Life size Image Cutout", "coordinates": { "top": "86%", "left": "5%", "width": "40%", "height": "12%" } },
+        { "id": "doodle_bottom_left", "type": "doodle_placeholder", "style": "decorative", "coordinates": { "top": "86%", "left": "50%", "width": "20%", "height": "10%" } },
+        { "id": "doodle_bottom_right", "type": "doodle_placeholder", "style": "decorative", "coordinates": { "top": "86%", "left": "75%", "width": "20%", "height": "10%" } }
+      ]
+    },
+    {
+      "id": "mw_portrait_4_page_5",
+      "name": "Endless Love Diary Finale",
+      "collection": "Memory Weave Portrait 4",
+      "canvas": { "width_px": 1200, "height_px": 1600, "aspect_ratio": "3:4" },
+      "background": { "type": "solid", "color": "#E3E0D6" },
+      "layout_elements": [
+        { "id": "text_block_main_diary", "type": "text_area", "style": "dense_handwritten_love", "placeholder_text": "Handwritten, love texts\noo text\ntext\ntext", "coordinates": { "top": "5%", "left": "5%", "width": "90%", "height": "35%" } },
+        { "id": "image_cutout_bottom_left", "type": "image_placeholder", "style": "organic_cutout", "label": "Image Cutout", "coordinates": { "top": "45%", "left": "5%", "width": "45%", "height": "35%" } },
+        { "id": "text_bottom_right_meta", "type": "text_area", "placeholder_text": "text\ntext", "coordinates": { "top": "50%", "left": "60%", "width": "35%", "height": "15%" } },
+        { "id": "doodle_center_bottom_1", "type": "doodle_placeholder", "style": "sketch", "coordinates": { "top": "85%", "left": "10%", "width": "35%", "height": "10%" } },
+        { "id": "doodle_center_bottom_2", "type": "doodle_placeholder", "style": "sketch", "coordinates": { "top": "85%", "left": "55%", "width": "35%", "height": "10%" } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2021 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "collection": "Memory Weave Portrait & Pet Scrapbook System",
+    "orientation": "portrait",
+    "totalTemplates": 9
+  },
+  "templates": [
+    {
+      "templateId": "mw_portrait_01_diary_wheel",
+      "templateName": "Diary Reflections & Photo Wheel",
+      "category": "Memory Journal",
+      "orientation": "portrait",
+      "canvas": {
+        "width": 1080,
+        "height": 1350,
+        "coordinateSystem": "percentage"
+      },
+      "background": {
+        "default": {
+          "type": "solid",
+          "color": "#E3DEC3"
+        },
+        "alternatives": [
+          { "type": "texture", "name": "Vintage Paper", "url": "assets/textures/vintage_paper.jpg" },
+          { "type": "texture", "name": "Paper Grain", "url": "assets/textures/paper_grain.jpg" },
+          { "type": "texture", "name": "Linen Texture", "url": "assets/textures/linen.jpg" }
+        ]
+      },
+      "contentSlots": [
+        "diary_text_top",
+        "photo_wheel_1",
+        "photo_wheel_2",
+        "photo_wheel_3",
+        "photo_wheel_4",
+        "photo_wheel_5",
+        "photo_wheel_6",
+        "sticker_left_mid",
+        "sticker_left_bottom",
+        "person_cutout_left_mid",
+        "person_cutout_bottom_center",
+        "person_cutout_right_bottom",
+        "motivational_title_1",
+        "motivational_title_2",
+        "body_text_center",
+        "doodle_top_right",
+        "doodle_bottom_center"
+      ],
+      "layout": [
+        {
+          "id": "diary_text_top_box",
+          "type": "paragraph",
+          "slot": "diary_text_top",
+          "x": 2.0,
+          "y": 2.0,
+          "width": 35.0,
+          "height": 22.0,
+          "rotation": 0,
+          "zIndex": 10,
+          "editable": true,
+          "locked": false,
+          "style": {
+            "fontFamily": "Architects Daughter, cursive",
+            "fontSize": "24px",
+            "color": "#2C2A29",
+            "backgroundColor": "#F4F1E6",
+            "padding": "15px",
+            "textAlign": "left"
+          }
+        },
+        {
+          "id": "wheel_container",
+          "type": "photo_group",
+          "x": 42.0,
+          "y": 2.0,
+          "width": 55.0,
+          "height": 44.0,
+          "rotation": 0,
+          "zIndex": 5,
+          "editable": false,
+          "locked": true,
+          "style": {}
+        },
+        {
+          "id": "photo_w1",
+          "type": "photo",
+          "slot": "photo_wheel_1",
+          "x": 60.0,
+          "y": 4.0,
+          "width": 18.0,
+          "height": 16.0,
+          "rotation": 30,
+          "zIndex": 6,
+          "editable": true,
+          "locked": false,
+          "style": { "clipPath": "polygon(50% 50%, 100% 0, 100% 50%)", "filter": "drop-shadow(2px 4px 6px rgba(0,0,0,0.15))" }
+        },
+        {
+          "id": "photo_w2",
+          "type": "photo",
+          "slot": "photo_wheel_2",
+          "x": 75.0,
+          "y": 15.0,
+          "width": 18.0,
+          "height": 16.0,
+          "rotation": 90,
+          "zIndex": 6,
+          "editable": true,
+          "locked": false,
+          "style": { "clipPath": "polygon(50% 50%, 100% 0, 100% 50%)" }
+        },
+        {
+          "id": "photo_w3",
+          "type": "photo",
+          "slot": "photo_wheel_3",
+          "x": 70.0,
+          "y": 28.0,
+          "width": 18.0,
+          "height": 16.0,
+          "rotation": 150,
+          "zIndex": 6,
+          "editable": true,
+          "locked": false,
+          "style": { "clipPath": "polygon(50% 50%, 100% 0, 100% 50%)" }
+        },
+        {
+          "id": "photo_w4",
+          "type": "photo",
+          "slot": "photo_wheel_4",
+          "x": 52.0,
+          "y": 28.0,
+          "width": 18.0,
+          "height": 16.0,
+          "rotation": 210,
+          "zIndex": 6,
+          "editable": true,
+          "locked": false,
+          "style": { "clipPath": "polygon(50% 50%, 100% 0, 100% 50%)" }
+        },
+        {
+          "id": "photo_w5",
+          "type": "photo",
+          "slot": "photo_wheel_5",
+          "x": 44.0,
+          "y": 14.0,
+          "width": 18.0,
+          "height": 16.0,
+          "rotation": 270,
+          "zIndex": 6,
+          "editable": true,
+          "locked": false,
+          "style": { "clipPath": "polygon(50% 50%, 100% 0, 100% 50%)" }
+        },
+        {
+          "id": "photo_w6",
+          "type": "photo",
+          "slot": "photo_wheel_6",
+          "x": 48.0,
+          "y": 3.0,
+          "width": 18.0,
+          "height": 16.0,
+          "rotation": 330,
+          "zIndex": 6,
+          "editable": true,
+          "locked": false,
+          "style": { "clipPath": "polygon(50% 50%, 100% 0, 100% 50%)" }
+        },
+        {
+          "id": "cutout_left",
+          "type": "person_cutout",
+          "slot": "person_cutout_left_mid",
+          "x": 15.0,
+          "y": 32.0,
+          "width": 24.0,
+          "height": 30.0,
+          "rotation": 0,
+          "zIndex": 8,
+          "editable": true,
+          "locked": false,
+          "style": { "backgroundColor": "#DDD9C5", "border": "4px solid #FFF" }
+        },
+        {
+          "id": "sticker_mid_l",
+          "type": "sticker",
+          "slot": "sticker_left_mid",
+          "x": -2.0,
+          "y": 46.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 25,
+          "editable": true,
+          "locked": false,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "motivation_text_1",
+          "type": "title",
+          "slot": "motivational_title_1",
+          "x": 28.0,
+          "y": 51.0,
+          "width": 42.0,
+          "height": 8.0,
+          "rotation": -11,
+          "zIndex": 15,
+          "editable": true,
+          "locked": false,
+          "style": { "fontFamily": "Permanent Marker, sans-serif", "fontSize": "26px", "textAlign": "center" }
+        },
+        {
+          "id": "body_text_main",
+          "type": "paragraph",
+          "slot": "body_text_center",
+          "x": 26.0,
+          "y": 58.0,
+          "width": 43.0,
+          "height": 14.0,
+          "rotation": -10,
+          "zIndex": 15,
+          "editable": true,
+          "locked": false,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "22px", "textAlign": "center" }
+        },
+        {
+          "id": "motivation_text_2",
+          "type": "subtitle",
+          "slot": "motivational_title_2",
+          "x": 12.0,
+          "y": 70.0,
+          "width": 15.0,
+          "height": 8.0,
+          "rotation": -12,
+          "zIndex": 15,
+          "editable": true,
+          "locked": false,
+          "style": { "fontFamily": "Permanent Marker, sans-serif", "fontSize": "16px" }
+        },
+        {
+          "id": "sticker_bot_l",
+          "type": "sticker",
+          "slot": "sticker_left_bottom",
+          "x": 2.0,
+          "y": 83.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 25,
+          "editable": true,
+          "locked": false,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "cutout_bot_center",
+          "type": "person_cutout",
+          "slot": "person_cutout_bottom_center",
+          "x": 26.0,
+          "y": 74.0,
+          "width": 21.0,
+          "height": 26.0,
+          "rotation": 0,
+          "zIndex": 8,
+          "editable": true,
+          "locked": false,
+          "style": { "backgroundColor": "#DDD9C5", "border": "4px solid #FFF" }
+        },
+        {
+          "id": "doodle_bot",
+          "type": "doodle",
+          "slot": "doodle_bottom_center",
+          "x": 50.0,
+          "y": 80.0,
+          "width": 13.0,
+          "height": 12.0,
+          "rotation": 0,
+          "zIndex": 12,
+          "editable": true,
+          "locked": false,
+          "style": { "border": "3px solid #FFF", "backgroundColor": "#DDD9C5" }
+        },
+        {
+          "id": "doodle_right_mid",
+          "type": "doodle",
+          "slot": "doodle_top_right",
+          "x": 73.0,
+          "y": 45.0,
+          "width": 21.0,
+          "height": 6.0,
+          "rotation": 0,
+          "zIndex": 12,
+          "editable": true,
+          "locked": false,
+          "style": { "border": "3px solid #FFF", "backgroundColor": "#DDD9C5" }
+        },
+        {
+          "id": "cutout_right",
+          "type": "person_cutout",
+          "slot": "person_cutout_right_bottom",
+          "x": 67.0,
+          "y": 50.0,
+          "width": 31.0,
+          "height": 48.0,
+          "rotation": 0,
+          "zIndex": 7,
+          "editable": true,
+          "locked": false,
+          "style": { "backgroundColor": "#DDD9C5", "border": "4px solid #FFF" }
+        }
+      ],
+      "decorations": [],
+      "styleRules": {
+        "theme": "Vintage Scrapbook Wheel",
+        "photoStyle": "Fragmented Wheel / Polished Cutout Borders",
+        "backgroundStyle": "Warm Cream Solid / Textured Overlay Option",
+        "allowStickerSwap": true,
+        "allowBackgroundGeneration": true,
+        "allowTextureSwap": true,
+        "allowPhotoRotation": true
+      },
+      "aiHints": {
+        "backgroundTextures": ["Paper Grain", "Vintage Paper", "Cardboard"],
+        "fonts": ["Architects Daughter", "Permanent Marker"],
+        "decorationCategories": ["Doodles", "Y2K Stickers", "Washi Tape"],
+        "colorPalette": ["#E3DEC3", "#D6A3FB", "#F4F1E6", "#2C2A29"],
+        "mood": "Playful, organic, diary-esque",
+        "density": "high"
+      }
+    },
+    {
+      "templateId": "mw_portrait_02_music_heavy",
+      "templateName": "Editorial Music Card Collage",
+      "category": "Album Cover & Collage",
+      "orientation": "portrait",
+      "canvas": {
+        "width": 1080,
+        "height": 1350,
+        "coordinateSystem": "percentage"
+      },
+      "background": {
+        "default": {
+          "type": "solid",
+          "color": "#D3CEBA"
+        },
+        "alternatives": [
+          { "type": "texture", "name": "Linen Texture", "url": "assets/textures/linen.jpg" },
+          { "type": "texture", "name": "Kraft Paper", "url": "assets/textures/kraft.jpg" }
+        ]
+      },
+      "contentSlots": [
+        "polaroid_top_left",
+        "sticker_top_center",
+        "person_cutout_top_right",
+        "film_strip_right",
+        "text_image_box",
+        "torn_style_image",
+        "sticker_mid_left",
+        "main_title",
+        "sticker_center",
+        "sticker_mid_left_2",
+        "motivational_quote_mid_right",
+        "doodle_left_mid",
+        "song_cover",
+        "song_name",
+        "artist_name",
+        "image_square_bottom",
+        "person_cutout_bottom_right",
+        "sticker_bottom_left"
+      ],
+      "layout": [
+        {
+          "id": "polaroid_tl",
+          "type": "polaroid",
+          "slot": "polaroid_top_left",
+          "x": 0.0,
+          "y": 1.0,
+          "width": 34.0,
+          "height": 18.0,
+          "rotation": -5,
+          "zIndex": 10,
+          "editable": true,
+          "locked": false,
+          "style": { "backgroundColor": "#222", "border": "12px solid #FFF", "boxShadow": "0 4px 10px rgba(0,0,0,0.3)" }
+        },
+        {
+          "id": "sticker_tc",
+          "type": "sticker",
+          "slot": "sticker_top_center",
+          "x": 39.0,
+          "y": -3.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 20,
+          "editable": true,
+          "locked": false,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "cutout_tr",
+          "type": "person_cutout",
+          "slot": "person_cutout_top_right",
+          "x": 55.0,
+          "y": 0.0,
+          "width": 19.0,
+          "height": 13.0,
+          "rotation": 0,
+          "zIndex": 6,
+          "editable": true,
+          "locked": false,
+          "style": { "backgroundColor": "#C4C0AC" }
+        },
+        {
+          "id": "film_strip_r",
+          "type": "film_strip",
+          "slot": "film_strip_right",
+          "x": 68.0,
+          "y": -8.0,
+          "width": 35.0,
+          "height": 35.0,
+          "rotation": 28,
+          "zIndex": 5,
+          "editable": true,
+          "locked": false,
+          "style": { "backgroundColor": "#000" }
+        },
+        {
+          "id": "text_img_box",
+          "type": "paragraph",
+          "slot": "text_image_box",
+          "x": 42.0,
+          "y": 12.0,
+          "width": 21.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 11,
+          "editable": true,
+          "locked": false,
+          "style": { "backgroundColor": "#C4C0AC", "border": "3px solid #FFF", "padding": "10px" }
+        },
+        {
+          "id": "torn_img",
+          "type": "torn_photo",
+          "slot": "torn_style_image",
+          "x": 64.0,
+          "y": 14.0,
+          "width": 35.0,
+          "height": 12.0,
+          "rotation": 0,
+          "zIndex": 9,
+          "editable": true,
+          "locked": false,
+          "style": { "backgroundColor": "#C4C0AC", "border": "3px solid #FFF" }
+        },
+        {
+          "id": "sticker_ml1",
+          "type": "sticker",
+          "slot": "sticker_mid_left",
+          "x": 4.0,
+          "y": 23.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 22,
+          "editable": true,
+          "locked": false,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "title_main",
+          "type": "title",
+          "slot": "main_title",
+          "x": 12.0,
+          "y": 35.0,
+          "width": 84.0,
+          "height": 10.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "editable": true,
+          "locked": false,
+          "style": { "fontFamily": "Impact, sans-serif", "fontSize": "70px", "letterSpacing": "15px", "textAlign": "center" }
+        },
+        {
+          "id": "sticker_ml2",
+          "type": "sticker",
+          "slot": "sticker_mid_left_2",
+          "x": 3.0,
+          "y": 48.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 22,
+          "editable": true,
+          "locked": false,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "sticker_c",
+          "type": "sticker",
+          "slot": "sticker_center",
+          "x": 34.0,
+          "y": 52.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 22,
+          "editable": true,
+          "locked": false,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "quote_mr",
+          "type": "paragraph",
+          "slot": "motivational_quote_mid_right",
+          "x": 55.0,
+          "y": 48.0,
+          "width": 38.0,
+          "height": 11.0,
+          "rotation": -4,
+          "zIndex": 16,
+          "editable": true,
+          "locked": false,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "22px", "textAlign": "center" }
+        },
+        {
+          "id": "doodle_lm",
+          "type": "doodle",
+          "slot": "doodle_left_mid",
+          "x": 8.0,
+          "y": 58.0,
+          "width": 11.0,
+          "height": 11.0,
+          "rotation": 90,
+          "zIndex": 14,
+          "editable": true,
+          "locked": false,
+          "style": { "border": "2px solid #FFF", "backgroundColor": "#C4C0AC" }
+        },
+        {
+          "id": "music_player_card",
+          "type": "music_card",
+          "x": 14.0,
+          "y": 64.0,
+          "width": 42.0,
+          "height": 34.0,
+          "rotation": 0,
+          "zIndex": 18,
+          "editable": false,
+          "locked": false,
+          "style": { "backgroundColor": "#FFF", "borderRadius": "40px", "padding": "20px", "boxShadow": "0 10px 25px rgba(0,0,0,0.1)" }
+        },
+        {
+          "id": "music_cover_img",
+          "type": "song_cover",
+          "slot": "song_cover",
+          "x": 17.0,
+          "y": 65.0,
+          "width": 36.0,
+          "height": 22.0,
+          "rotation": 0,
+          "zIndex": 19,
+          "editable": true,
+          "style": { "backgroundColor": "#D6A3FB", "borderRadius": "25px" }
+        },
+        {
+          "id": "music_meta_name",
+          "type": "text",
+          "slot": "song_name",
+          "x": 17.0,
+          "y": 91.0,
+          "width": 25.0,
+          "height": 30.0,
+          "rotation": 0,
+          "zIndex": 20,
+          "style": { "fontFamily": "sans-serif", "fontWeight": "bold", "fontSize": "16px" }
+        },
+        {
+          "id": "music_meta_artist",
+          "type": "text",
+          "slot": "artist_name",
+          "x": 17.0,
+          "y": 93.5,
+          "width": 25.0,
+          "height": 30.0,
+          "rotation": 0,
+          "zIndex": 20,
+          "style": { "fontFamily": "sans-serif", "color": "#666", "fontSize": "14px" }
+        },
+        {
+          "id": "img_sq_b",
+          "type": "photo",
+          "slot": "image_square_bottom",
+          "x": 51.0,
+          "y": 63.0,
+          "width": 20.0,
+          "height": 13.0,
+          "rotation": 0,
+          "zIndex": 8,
+          "editable": true,
+          "style": { "backgroundColor": "#C4C0AC" }
+        },
+        {
+          "id": "cutout_rb",
+          "type": "person_cutout",
+          "slot": "person_cutout_bottom_right",
+          "x": 71.0,
+          "y": 57.0,
+          "width": 28.0,
+          "height": 42.0,
+          "rotation": 0,
+          "zIndex": 7,
+          "editable": true,
+          "style": { "backgroundColor": "#C4C0AC" }
+        },
+        {
+          "id": "sticker_bl",
+          "type": "sticker",
+          "slot": "sticker_bottom_left",
+          "x": -1.0,
+          "y": 90.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 22,
+          "editable": true,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        }
+      ],
+      "decorations": [],
+      "styleRules": {
+        "theme": "Editorial Cutout Media Group",
+        "photoStyle": "Mixed Media (Film Strip, Polaroid, Cutout)",
+        "backgroundStyle": "Muted Olive-Gray Solid",
+        "allowStickerSwap": true,
+        "allowBackgroundGeneration": true,
+        "allowTextureSwap": true,
+        "allowPhotoRotation": true
+      },
+      "aiHints": {
+        "backgroundTextures": ["Linen", "Kraft Paper"],
+        "fonts": ["Impact", "Architects Daughter", "Helvetica"],
+        "decorationCategories": ["Music Interface Elements", "Film Grain", "Vintage Stickers"],
+        "colorPalette": ["#D3CEBA", "#D6A3FB", "#000000", "#FFFFFF"],
+        "mood": "Urban, retro-contemporary, artistic expression",
+        "density": "very high"
+      }
+    },
+    {
+      "templateId": "mw_portrait_03_grid_journal",
+      "templateName": "Structured Diary Canvas",
+      "category": "Memory Journal",
+      "orientation": "portrait",
+      "canvas": {
+        "width": 1080,
+        "height": 1350,
+        "coordinateSystem": "percentage"
+      },
+      "background": {
+        "default": {
+          "type": "solid",
+          "color": "#DCD7C2"
+        },
+        "alternatives": [
+          { "type": "texture", "name": "Grid", "url": "assets/textures/grid.jpg" },
+          { "type": "texture", "name": "Soft Dots", "url": "assets/textures/dots.jpg" }
+        ]
+      },
+      "contentSlots": [
+        "photo_top_left",
+        "photo_top_right",
+        "doodle_top_mid",
+        "photo_mid_left",
+        "photo_mid_right",
+        "handwritten_text_mid",
+        "motivational_quote_center",
+        "sticker_center_left",
+        "doodle_center_right",
+        "person_cutout_bottom_left",
+        "person_cutout_bottom_mid",
+        "person_cutout_bottom_right",
+        "doodle_bottom_strip"
+      ],
+      "layout": [
+        {
+          "id": "p_tl",
+          "type": "photo",
+          "slot": "photo_top_left",
+          "x": 5.0,
+          "y": 3.0,
+          "width": 18.0,
+          "height": 13.0,
+          "rotation": 0,
+          "zIndex": 5,
+          "style": { "border": "4px solid #FFF" }
+        },
+        {
+          "id": "p_tr",
+          "type": "photo",
+          "slot": "photo_top_right",
+          "x": 26.0,
+          "y": 3.0,
+          "width": 18.0,
+          "height": 13.0,
+          "rotation": 0,
+          "zIndex": 5,
+          "style": { "border": "4px solid #FFF" }
+        },
+        {
+          "id": "d_tm",
+          "type": "doodle",
+          "slot": "doodle_top_mid",
+          "x": 48.0,
+          "y": 4.0,
+          "width": 15.0,
+          "height": 10.0,
+          "rotation": 0,
+          "zIndex": 10,
+          "style": { "border": "3px solid #FFF" }
+        },
+        {
+          "id": "p_ml",
+          "type": "photo",
+          "slot": "photo_mid_left",
+          "x": 67.0,
+          "y": 3.0,
+          "width": 14.0,
+          "height": 13.0,
+          "rotation": 0,
+          "zIndex": 5,
+          "style": { "border": "4px solid #FFF" }
+        },
+        {
+          "id": "p_mr",
+          "type": "photo",
+          "slot": "photo_mid_right",
+          "x": 84.0,
+          "y": 3.0,
+          "width": 12.0,
+          "height": 13.0,
+          "rotation": 0,
+          "zIndex": 5,
+          "style": { "border": "4px solid #FFF" }
+        },
+        {
+          "id": "hw_text_m",
+          "type": "paragraph",
+          "slot": "handwritten_text_mid",
+          "x": 5.0,
+          "y": 18.0,
+          "width": 38.0,
+          "height": 14.0,
+          "rotation": 0,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "22px" }
+        },
+        {
+          "id": "m_quote_c",
+          "type": "paragraph",
+          "slot": "motivational_quote_center",
+          "x": 5.0,
+          "y": 34.0,
+          "width": 90.0,
+          "height": 12.0,
+          "rotation": -2,
+          "zIndex": 15,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "26px", "textAlign": "center" }
+        },
+        {
+          "id": "st_cl",
+          "type": "sticker",
+          "slot": "sticker_center_left",
+          "x": 6.0,
+          "y": 48.0,
+          "width": 12.0,
+          "height": 9.0,
+          "rotation": 0,
+          "zIndex": 20,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "d_cr",
+          "type": "doodle",
+          "slot": "doodle_center_right",
+          "x": 22.0,
+          "y": 48.0,
+          "width": 14.0,
+          "height": 10.0,
+          "rotation": 0,
+          "zIndex": 10,
+          "style": { "border": "3px solid #FFF" }
+        },
+        {
+          "id": "c_bl",
+          "type": "person_cutout",
+          "slot": "person_cutout_bottom_left",
+          "x": 42.0,
+          "y": 48.0,
+          "width": 14.0,
+          "height": 17.0,
+          "rotation": 0,
+          "zIndex": 7
+        },
+        {
+          "id": "c_bm",
+          "type": "person_cutout",
+          "slot": "person_cutout_bottom_mid",
+          "x": 60.0,
+          "y": 48.0,
+          "width": 15.0,
+          "height": 17.0,
+          "rotation": 0,
+          "zIndex": 7
+        },
+        {
+          "id": "c_br",
+          "type": "person_cutout",
+          "slot": "person_cutout_bottom_right",
+          "x": 78.0,
+          "y": 48.0,
+          "width": 17.0,
+          "height": 17.0,
+          "rotation": 0,
+          "zIndex": 7
+        },
+        {
+          "id": "d_bot_strip",
+          "type": "doodle",
+          "slot": "doodle_bottom_strip",
+          "x": 5.0,
+          "y": 68.0,
+          "width": 90.0,
+          "height": 28.0,
+          "rotation": 0,
+          "zIndex": 4,
+          "style": { "backgroundColor": "#CBBF9E", "opacity": 0.5 }
+        }
+      ],
+      "decorations": [],
+      "styleRules": {
+        "theme": "Modern Minimal Journal",
+        "photoStyle": "Grid Formatted Structured Micro-Frames",
+        "backgroundStyle": "Flat Pale Sage/Ochre Mix",
+        "allowStickerSwap": true,
+        "allowBackgroundGeneration": true,
+        "allowTextureSwap": true,
+        "allowPhotoRotation": false
+      },
+      "aiHints": {
+        "backgroundTextures": ["Fine Grid", "Soft Dots", "Recycled Paper"],
+        "fonts": ["Architects Daughter"],
+        "decorationCategories": ["Minimalist Frames", "Fineline Doodles"],
+        "colorPalette": ["#DCD7C2", "#CBBF9E", "#D6A3FB"],
+        "mood": "Calm, analytical, structured storytelling",
+        "density": "medium"
+      }
+    },
+    {
+      "templateId": "mw_portrait_04_dense_collage",
+      "templateName": "Maximalist Storyteller Collage",
+      "category": "Collage",
+      "orientation": "portrait",
+      "canvas": {
+        "width": 1080,
+        "height": 1350,
+        "coordinateSystem": "percentage"
+      },
+      "background": {
+        "default": {
+          "type": "solid",
+          "color": "#DAD4BE"
+        },
+        "alternatives": [
+          { "type": "texture", "name": "Watercolor Wash", "url": "assets/textures/watercolor.jpg" },
+          { "type": "texture", "name": "Vintage Paper", "url": "assets/textures/vintage.jpg" }
+        ]
+      },
+      "contentSlots": [
+        "sticker_group_top",
+        "text_group_mid",
+        "cutouts_composite_bottom",
+        "doodle_accents"
+      ],
+      "layout": [
+        {
+          "id": "text_block_dense_1",
+          "type": "paragraph",
+          "slot": "text_group_mid",
+          "x": 5.0,
+          "y": 4.0,
+          "width": 42.0,
+          "height": 10.0,
+          "rotation": -3,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "20px" }
+        },
+        {
+          "id": "text_block_dense_2",
+          "type": "paragraph",
+          "slot": "text_group_mid",
+          "x": 52.0,
+          "y": 4.0,
+          "width": 42.0,
+          "height": 10.0,
+          "rotation": 2,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "20px" }
+        },
+        {
+          "id": "sticker_dense_1",
+          "type": "sticker",
+          "slot": "sticker_group_top",
+          "x": 8.0,
+          "y": 18.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 20,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "sticker_dense_2",
+          "type": "sticker",
+          "slot": "sticker_group_top",
+          "x": 26.0,
+          "y": 18.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 20,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "doodle_dense_1",
+          "type": "doodle",
+          "slot": "doodle_accents",
+          "x": 45.0,
+          "y": 18.0,
+          "width": 16.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 10,
+          "style": { "border": "3px solid #FFF" }
+        },
+        {
+          "id": "text_block_dense_3",
+          "type": "paragraph",
+          "slot": "text_group_mid",
+          "x": 66.0,
+          "y": 18.0,
+          "width": 28.0,
+          "height": 12.0,
+          "rotation": -1,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "18px" }
+        },
+        {
+          "id": "cutout_composite_1",
+          "type": "person_cutout",
+          "slot": "cutouts_composite_bottom",
+          "x": 5.0,
+          "y": 35.0,
+          "width": 28.0,
+          "height": 60.0,
+          "rotation": 0,
+          "zIndex": 8,
+          "style": { "border": "4px solid #FFF" }
+        },
+        {
+          "id": "cutout_composite_2",
+          "type": "person_cutout",
+          "slot": "cutouts_composite_bottom",
+          "x": 36.0,
+          "y": 35.0,
+          "width": 28.0,
+          "height": 60.0,
+          "rotation": 0,
+          "zIndex": 7,
+          "style": { "border": "4px solid #FFF" }
+        },
+        {
+          "id": "cutout_composite_3",
+          "type": "person_cutout",
+          "slot": "cutouts_composite_bottom",
+          "x": 67.0,
+          "y": 35.0,
+          "width": 28.0,
+          "height": 60.0,
+          "rotation": 0,
+          "zIndex": 8,
+          "style": { "border": "4px solid #FFF" }
+        }
+      ],
+      "decorations": [],
+      "styleRules": {
+        "theme": "Cute Scrapbook Collage",
+        "photoStyle": "Bold Border Extended Cutouts",
+        "backgroundStyle": "Solid Khaki Tan",
+        "allowStickerSwap": true,
+        "allowBackgroundGeneration": true,
+        "allowTextureSwap": true,
+        "allowPhotoRotation": true
+      },
+      "aiHints": {
+        "backgroundTextures": ["Watercolor Wash", "Vintage Linen"],
+        "fonts": ["Architects Daughter", "Homemade Apple"],
+        "decorationCategories": ["Star Stickers", "Hand-drawn Arrows", "Heart Doodles"],
+        "colorPalette": ["#DAD4BE", "#D6A3FB", "#FFFFFF"],
+        "mood": "Expressive, rich, highly customized memory grid",
+        "density": "dense"
+      }
+    },
+    {
+      "templateId": "mw_portrait_05_pet_album_cover",
+      "templateName": "Pet Chronicles Album Cover",
+      "category": "Album Cover",
+      "orientation": "portrait",
+      "canvas": {
+        "width": 1080,
+        "height": 1350,
+        "coordinateSystem": "percentage"
+      },
+      "background": {
+        "default": {
+          "type": "solid",
+          "color": "#D7D2BE"
+        },
+        "alternatives": [
+          { "type": "texture", "name": "Kraft Paper", "url": "assets/textures/kraft.jpg" },
+          { "type": "texture", "name": "Paper Grain", "url": "assets/textures/grain.jpg" }
+        ]
+      },
+      "contentSlots": [
+        "album_title",
+        "pet_cutout_top_left",
+        "pet_cutout_bottom_center_1",
+        "pet_cutout_bottom_center_2",
+        "pet_wish_text_badge",
+        "sticker_pet_standing",
+        "sticker_decorative_left",
+        "badge_animal_footprint",
+        "doodle_frame_bottom_right"
+      ],
+      "layout": [
+        {
+          "id": "album_title_container",
+          "type": "shape",
+          "x": 20.0,
+          "y": 18.0,
+          "width": 64.0,
+          "height": 26.0,
+          "rotation": 0,
+          "zIndex": 5,
+          "style": { "backgroundColor": "#FFFFAF", "border": "4px dashed #000" }
+        },
+        {
+          "id": "album_title_text",
+          "type": "title",
+          "slot": "album_title",
+          "x": 24.0,
+          "y": 24.0,
+          "width": 56.0,
+          "height": 14.0,
+          "rotation": 0,
+          "zIndex": 6,
+          "style": { "fontFamily": "Impact, sans-serif", "fontSize": "48px", "textAlign": "center" }
+        },
+        {
+          "id": "pet_cutout_tl",
+          "type": "photo",
+          "slot": "pet_cutout_top_left",
+          "x": 4.0,
+          "y": 2.0,
+          "width": 26.0,
+          "height": 16.0,
+          "rotation": 0,
+          "zIndex": 4,
+          "style": { "borderRadius": "50%", "backgroundColor": "#C5BFAB" }
+        },
+        {
+          "id": "sticker_pet_stand",
+          "type": "sticker",
+          "slot": "sticker_pet_standing",
+          "x": 40.0,
+          "y": 4.0,
+          "width": 28.0,
+          "height": 15.0,
+          "rotation": 0,
+          "zIndex": 12,
+          "style": { "backgroundColor": "#D6A3FB", "borderRadius": "50%" }
+        },
+        {
+          "id": "badge_footprint",
+          "type": "icon",
+          "slot": "badge_animal_footprint",
+          "x": 76.0,
+          "y": 40.0,
+          "width": 16.0,
+          "height": 13.0,
+          "rotation": 0,
+          "zIndex": 11,
+          "style": { "backgroundColor": "#FFFFAF", "borderRadius": "50%" }
+        },
+        {
+          "id": "sticker_dec_l",
+          "type": "sticker",
+          "slot": "sticker_decorative_left",
+          "x": 2.0,
+          "y": 48.0,
+          "width": 24.0,
+          "height": 15.0,
+          "rotation": 0,
+          "zIndex": 10,
+          "style": { "backgroundColor": "#D6A3FB", "borderRadius": "50%" }
+        },
+        {
+          "id": "pet_cutout_bc1",
+          "type": "photo",
+          "slot": "pet_cutout_bottom_center_1",
+          "x": 32.0,
+          "y": 45.0,
+          "width": 16.0,
+          "height": 22.0,
+          "rotation": 0,
+          "zIndex": 7,
+          "style": { "border": "4px solid #FFF" }
+        },
+        {
+          "id": "pet_cutout_bc2",
+          "type": "photo",
+          "slot": "pet_cutout_bottom_center_2",
+          "x": 50.0,
+          "y": 55.0,
+          "width": 16.0,
+          "height": 22.0,
+          "rotation": 0,
+          "zIndex": 7,
+          "style": { "border": "4px solid #FFF" }
+        },
+        {
+          "id": "pet_wish_badge",
+          "type": "paragraph",
+          "slot": "pet_wish_text_badge",
+          "x": 4.0,
+          "y": 80.0,
+          "width": 62.0,
+          "height": 12.0,
+          "rotation": -4,
+          "zIndex": 15,
+          "style": { "backgroundColor": "#FFFFAF", "fontFamily": "Architects Daughter, cursive", "padding": "10px", "fontSize": "20px" }
+        },
+        {
+          "id": "doodle_frame_br",
+          "type": "doodle",
+          "slot": "doodle_frame_bottom_right",
+          "x": 68.0,
+          "y": 72.0,
+          "width": 30.0,
+          "height": 26.0,
+          "rotation": 0,
+          "zIndex": 3,
+          "style": { "backgroundColor": "#C5BFAB", "border": "4px solid #FFF" }
+        }
+      ],
+      "decorations": [],
+      "styleRules": {
+        "theme": "Pet Scrapbook Cover",
+        "photoStyle": "Pasted Cutouts with Thick White Alignments",
+        "backgroundStyle": "Khaki Earthy Tone Solid",
+        "allowStickerSwap": true,
+        "allowBackgroundGeneration": true,
+        "allowTextureSwap": true,
+        "allowPhotoRotation": true
+      },
+      "aiHints": {
+        "backgroundTextures": ["Kraft Paper", "Cardboard Texture"],
+        "fonts": ["Impact", "Architects Daughter"],
+        "decorationCategories": ["Animal Paws", "Bone Doodles", "Pet Badges"],
+        "colorPalette": ["#D7D2BE", "#FFFFAF", "#D6A3FB", "#000000"],
+        "mood": "Sweet, dedicated, pet memory themed",
+        "density": "medium"
+      }
+    },
+    {
+      "templateId": "mw_portrait_06_pet_plate_diary",
+      "templateName": "Pet Plate Name Engraved Diary",
+      "category": "Memory Journal",
+      "orientation": "portrait",
+      "canvas": {
+        "width": 1080,
+        "height": 1350,
+        "coordinateSystem": "percentage"
+      },
+      "background": {
+        "default": {
+          "type": "solid",
+          "color": "#D4CFA9"
+        },
+        "alternatives": [
+          { "type": "texture", "name": "Linen Texture", "url": "assets/textures/linen.jpg" },
+          { "type": "texture", "name": "Grid", "url": "assets/textures/grid.jpg" }
+        ]
+      },
+      "contentSlots": [
+        "pet_engraved_plate_title",
+        "sticker_top_left",
+        "sticker_top_right",
+        "photo_quad_1",
+        "photo_quad_2",
+        "photo_quad_3",
+        "photo_quad_collage",
+        "sticker_mid_left",
+        "diary_cutout_long_text"
+      ],
+      "layout": [
+        {
+          "id": "plate_title_container",
+          "type": "shape",
+          "slot": "pet_engraved_plate_title",
+          "x": 25.0,
+          "y": 4.0,
+          "width": 50.0,
+          "height": 8.0,
+          "rotation": 0,
+          "zIndex": 10,
+          "style": { "backgroundColor": "#EBE7D3", "border": "2px solid #555", "borderRadius": "6px" }
+        },
+        {
+          "id": "st_tl",
+          "type": "sticker",
+          "slot": "sticker_top_left",
+          "x": 4.0,
+          "y": 3.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "st_tr",
+          "type": "sticker",
+          "slot": "sticker_top_right",
+          "x": 82.0,
+          "y": 4.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "p_q1",
+          "type": "photo",
+          "slot": "photo_quad_1",
+          "x": 8.0,
+          "y": 18.0,
+          "width": 18.0,
+          "height": 14.0,
+          "rotation": 0,
+          "zIndex": 6
+        },
+        {
+          "id": "p_q2",
+          "type": "photo",
+          "slot": "photo_quad_2",
+          "x": 28.0,
+          "y": 18.0,
+          "width": 18.0,
+          "height": 14.0,
+          "rotation": 0,
+          "zIndex": 6
+        },
+        {
+          "id": "p_q3",
+          "type": "photo",
+          "slot": "photo_quad_3",
+          "x": 48.0,
+          "y": 18.0,
+          "width": 18.0,
+          "height": 14.0,
+          "rotation": 0,
+          "zIndex": 6
+        },
+        {
+          "id": "p_q_coll",
+          "type": "photo_group",
+          "slot": "photo_quad_collage",
+          "x": 68.0,
+          "y": 16.0,
+          "width": 26.0,
+          "height": 22.0,
+          "rotation": 5,
+          "zIndex": 5
+        },
+        {
+          "id": "st_ml",
+          "type": "sticker",
+          "slot": "sticker_mid_left",
+          "x": 4.0,
+          "y": 42.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "diary_long_box",
+          "type": "paragraph",
+          "slot": "diary_cutout_long_text",
+          "x": 20.0,
+          "y": 45.0,
+          "width": 72.0,
+          "height": 48.0,
+          "rotation": 0,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "22px", "lineHeight": "1.6" }
+        }
+      ],
+      "decorations": [],
+      "styleRules": {
+        "theme": "Earthy Pet Diary",
+        "photoStyle": "Linear Grid Quad Row + Accent Tilted Collage",
+        "backgroundStyle": "Olive Tinted Solid Canvas",
+        "allowStickerSwap": true,
+        "allowBackgroundGeneration": true,
+        "allowTextureSwap": true,
+        "allowPhotoRotation": true
+      },
+      "aiHints": {
+        "backgroundTextures": ["Linen", "Soft Dots"],
+        "fonts": ["Architects Daughter", "Courier New"],
+        "decorationCategories": ["Nameplates", "Vintage Ribbons"],
+        "colorPalette": ["#D4CFA9", "#EBE7D3", "#D6A3FB"],
+        "mood": "Sentimental, detailed narrative layout",
+        "density": "high"
+      }
+    },
+    {
+      "templateId": "mw_portrait_07_the_best_i_had",
+      "templateName": "The Best I Had Memory Canvas",
+      "category": "Memory Journal",
+      "orientation": "portrait",
+      "canvas": {
+        "width": 1080,
+        "height": 1350,
+        "coordinateSystem": "percentage"
+      },
+      "background": {
+        "default": {
+          "type": "solid",
+          "color": "#D1CBA8"
+        },
+        "alternatives": [
+          { "type": "texture", "name": "Vintage Paper", "url": "assets/textures/vintage.jpg" },
+          { "type": "texture", "name": "Minimal Gradient", "url": "assets/textures/gradient.jpg" }
+        ]
+      },
+      "contentSlots": [
+        "doodle_top_left",
+        "sticker_top_mid",
+        "meta_text_top_right",
+        "photo_center_left",
+        "photo_center_mid",
+        "photo_center_right",
+        "sticker_center_left",
+        "sticker_center_right",
+        "prominent_banner_title",
+        "doodle_mid_left",
+        "person_cutout_mid_center",
+        "doodle_mid_right",
+        "sticker_bottom_left",
+        "sticker_bottom_mid",
+        "person_cutout_bottom_right",
+        "pet_compliments_paragraph"
+      ],
+      "layout": [
+        {
+          "id": "d_tl",
+          "type": "doodle",
+          "slot": "doodle_top_left",
+          "x": 6.0,
+          "y": 4.0,
+          "width": 12.0,
+          "height": 10.0,
+          "rotation": 0,
+          "zIndex": 10,
+          "style": { "border": "2px solid #FFF" }
+        },
+        {
+          "id": "st_tm",
+          "type": "sticker",
+          "slot": "sticker_top_mid",
+          "x": 26.0,
+          "y": 3.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "txt_tr",
+          "type": "text",
+          "slot": "meta_text_top_right",
+          "x": 55.0,
+          "y": 4.0,
+          "width": 38.0,
+          "height": 6.0,
+          "rotation": 0,
+          "zIndex": 12,
+          "style": { "fontFamily": "sans-serif" }
+        },
+        {
+          "id": "p_cl",
+          "type": "photo",
+          "slot": "photo_center_left",
+          "x": 6.0,
+          "y": 18.0,
+          "width": 24.0,
+          "height": 16.0,
+          "rotation": 0,
+          "zIndex": 6
+        },
+        {
+          "id": "p_cm",
+          "type": "photo",
+          "slot": "photo_center_mid",
+          "x": 34.0,
+          "y": 18.0,
+          "width": 26.0,
+          "height": 16.0,
+          "rotation": 0,
+          "zIndex": 6
+        },
+        {
+          "id": "p_cr",
+          "type": "photo",
+          "slot": "photo_center_right",
+          "x": 64.0,
+          "y": 18.0,
+          "width": 28.0,
+          "height": 16.0,
+          "rotation": 0,
+          "zIndex": 6
+        },
+        {
+          "id": "st_cl",
+          "type": "sticker",
+          "slot": "sticker_center_left",
+          "x": 2.0,
+          "y": 38.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "st_cr",
+          "type": "sticker",
+          "slot": "sticker_center_right",
+          "x": 86.0,
+          "y": 38.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "banner_title",
+          "type": "title",
+          "slot": "prominent_banner_title",
+          "x": 18.0,
+          "y": 42.0,
+          "width": 64.0,
+          "height": 8.0,
+          "rotation": 0,
+          "zIndex": 16,
+          "style": { "fontFamily": "Impact, sans-serif", "fontSize": "32px", "textAlign": "center" }
+        },
+        {
+          "id": "d_ml",
+          "type": "doodle",
+          "slot": "doodle_mid_left",
+          "x": 4.0,
+          "y": 55.0,
+          "width": 12.0,
+          "height": 12.0,
+          "rotation": 0,
+          "zIndex": 10
+        },
+        {
+          "id": "cutout_mc",
+          "type": "person_cutout",
+          "slot": "person_cutout_mid_center",
+          "x": 22.0,
+          "y": 54.0,
+          "width": 22.0,
+          "height": 24.0,
+          "rotation": 0,
+          "zIndex": 7
+        },
+        {
+          "id": "d_mr",
+          "type": "doodle",
+          "slot": "doodle_mid_right",
+          "x": 50.0,
+          "y": 56.0,
+          "width": 12.0,
+          "height": 12.0,
+          "rotation": 0,
+          "zIndex": 10
+        },
+        {
+          "id": "st_bl",
+          "type": "sticker",
+          "slot": "sticker_bottom_left",
+          "x": 2.0,
+          "y": 80.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "st_bm",
+          "type": "sticker",
+          "slot": "sticker_bottom_mid",
+          "x": 20.0,
+          "y": 82.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "cutout_br",
+          "type": "person_cutout",
+          "slot": "person_cutout_bottom_right",
+          "x": 68.0,
+          "y": 54.0,
+          "width": 26.0,
+          "height": 24.0,
+          "rotation": 0,
+          "zIndex": 7
+        },
+        {
+          "id": "compliments_para",
+          "type": "paragraph",
+          "slot": "pet_compliments_paragraph",
+          "x": 38.0,
+          "y": 80.0,
+          "width": 56.0,
+          "height": 16.0,
+          "rotation": 0,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "20px" }
+        }
+      ],
+      "decorations": [],
+      "styleRules": {
+        "theme": "Reminiscing Collage Style",
+        "photoStyle": "Symmetric Centered Rows & Mixed Cutout Formats",
+        "backgroundStyle": "Khaki Earthy Tone Solid Backdrop",
+        "allowStickerSwap": true,
+        "allowBackgroundGeneration": true,
+        "allowTextureSwap": true,
+        "allowPhotoRotation": true
+      },
+      "aiHints": {
+        "backgroundTextures": ["Vintage Paper", "Kraft Paper"],
+        "fonts": ["Impact", "Architects Daughter"],
+        "decorationCategories": ["Fineline Boxes", "Star Badges"],
+        "colorPalette": ["#D1CBA8", "#D6A3FB", "#FFFFFF"],
+        "mood": "Honoring, dedicated, nostalgic",
+        "density": "medium"
+      }
+    },
+    {
+      "templateId": "mw_portrait_08_stringlight_film",
+      "templateName": "Stringlight Filmstrip Pet Room",
+      "category": "Album Cover & Collage",
+      "orientation": "portrait",
+      "canvas": {
+        "width": 1080,
+        "height": 1350,
+        "coordinateSystem": "percentage"
+      },
+      "background": {
+        "default": {
+          "type": "solid",
+          "color": "#D3CEBA"
+        },
+        "alternatives": [
+          { "type": "texture", "name": "Watercolor Wash", "url": "assets/textures/watercolor.jpg" },
+          { "type": "texture", "name": "Linen Texture", "url": "assets/textures/linen.jpg" }
+        ]
+      },
+      "contentSlots": [
+        "stringlight_hanging_polaroids_group",
+        "filmstrip_vertical_left",
+        "sticker_top_center",
+        "text_compliment_bubble_1",
+        "text_compliment_bubble_2",
+        "text_compliment_bubble_3",
+        "text_compliment_bubble_4",
+        "text_compliment_bubble_5",
+        "text_compliment_bubble_6",
+        "badge_cute_acc_1",
+        "badge_cute_acc_2",
+        "pet_image_cutout_center",
+        "sticker_mid_left",
+        "long_compliment_text_center",
+        "pet_owner_composite_cutout",
+        "pet_image_cutout_bottom",
+        "doodle_bottom_mid",
+        "song_cover",
+        "song_name_artist"
+      ],
+      "layout": [
+        {
+          "id": "stringlight_element",
+          "type": "photo_group",
+          "slot": "stringlight_hanging_polaroids_group",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 100.0,
+          "height": 14.0,
+          "rotation": 0,
+          "zIndex": 8,
+          "style": { "borderBottom": "2px dashed #FFFFAF" }
+        },
+        {
+          "id": "film_v_l",
+          "type": "film_strip",
+          "slot": "filmstrip_vertical_left",
+          "x": -6.0,
+          "y": 14.0,
+          "width": 28.0,
+          "height": 86.0,
+          "rotation": -8,
+          "zIndex": 5,
+          "style": { "backgroundColor": "#000" }
+        },
+        {
+          "id": "st_tc",
+          "type": "sticker",
+          "slot": "sticker_top_center",
+          "x": 38.0,
+          "y": 16.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "comp_b1",
+          "type": "text",
+          "slot": "text_compliment_bubble_1",
+          "x": 48.0,
+          "y": 15.0,
+          "width": 22.0,
+          "height": 5.0,
+          "rotation": 8,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive" }
+        },
+        {
+          "id": "acc_b1",
+          "type": "icon",
+          "slot": "badge_cute_acc_1",
+          "x": 72.0,
+          "y": 15.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 14,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "comp_b2",
+          "type": "text",
+          "slot": "text_compliment_bubble_2",
+          "x": 26.0,
+          "y": 25.0,
+          "width": 20.0,
+          "height": 5.0,
+          "rotation": -5,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive" }
+        },
+        {
+          "id": "pet_cut_c",
+          "type": "photo",
+          "slot": "pet_image_cutout_center",
+          "x": 48.0,
+          "y": 26.0,
+          "width": 24.0,
+          "height": 16.0,
+          "rotation": 0,
+          "zIndex": 6
+        },
+        {
+          "id": "comp_b3",
+          "type": "text",
+          "slot": "text_compliment_bubble_3",
+          "x": 76.0,
+          "y": 27.0,
+          "width": 22.0,
+          "height": 5.0,
+          "rotation": 6,
+          "zIndex": 12
+        },
+        {
+          "id": "st_ml",
+          "type": "sticker",
+          "slot": "sticker_mid_left",
+          "x": 28.0,
+          "y": 44.0,
+          "width": 12.0,
+          "height": 9.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "acc_b2",
+          "type": "icon",
+          "slot": "badge_cute_acc_2",
+          "x": 62.0,
+          "y": 42.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 14,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "long_comp_c",
+          "type": "paragraph",
+          "slot": "long_compliment_text_center",
+          "x": 42.0,
+          "y": 48.0,
+          "width": 25.0,
+          "height": 18.0,
+          "rotation": 0,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "18px" }
+        },
+        {
+          "id": "owner_composite",
+          "type": "person_cutout",
+          "slot": "pet_owner_composite_cutout",
+          "x": 70.0,
+          "y": 50.0,
+          "width": 26.0,
+          "height": 22.0,
+          "rotation": 0,
+          "zIndex": 7,
+          "style": { "border": "4px solid #FFF" }
+        },
+        {
+          "id": "comp_b4",
+          "type": "text",
+          "slot": "text_compliment_bubble_4",
+          "x": 58.0,
+          "y": 68.0,
+          "width": 20.0,
+          "height": 5.0,
+          "rotation": 4
+        },
+        {
+          "id": "pet_cut_b",
+          "type": "photo",
+          "slot": "pet_image_cutout_bottom",
+          "x": 28.0,
+          "y": 68.0,
+          "width": 28.0,
+          "height": 22.0,
+          "rotation": 0,
+          "zIndex": 6
+        },
+        {
+          "id": "comp_b5",
+          "type": "text",
+          "slot": "text_compliment_bubble_5",
+          "x": 70.0,
+          "y": 75.0,
+          "width": 24.0,
+          "height": 5.0,
+          "rotation": -3
+        },
+        {
+          "id": "music_card_container",
+          "type": "music_card",
+          "x": 62.0,
+          "y": 81.0,
+          "width": 36.0,
+          "height": 18.0,
+          "rotation": 0,
+          "zIndex": 16,
+          "style": { "backgroundColor": "#FFF", "borderRadius": "30px", "padding": "10px" }
+        },
+        {
+          "id": "music_cover_p8",
+          "type": "song_cover",
+          "slot": "song_cover",
+          "x": 64.0,
+          "y": 82.0,
+          "width": 32.0,
+          "height": 12.0,
+          "rotation": 0,
+          "zIndex": 17,
+          "style": { "backgroundColor": "#D6A3FB", "borderRadius": "20px" }
+        },
+        {
+          "id": "music_meta_p8",
+          "type": "text",
+          "slot": "song_name_artist",
+          "x": 64.0,
+          "y": 95.0,
+          "width": 30.0,
+          "height": 3.0,
+          "rotation": 0,
+          "zIndex": 18,
+          "style": { "fontFamily": "sans-serif", "fontSize": "14px" }
+        },
+        {
+          "id": "d_bm",
+          "type": "doodle",
+          "slot": "doodle_bottom_mid",
+          "x": 48.0,
+          "y": 91.0,
+          "width": 12.0,
+          "height": 8.0,
+          "rotation": 0,
+          "zIndex": 10,
+          "style": { "border": "2px solid #FFF" }
+        }
+      ],
+      "decorations": [],
+      "styleRules": {
+        "theme": "Maximalist Multi-Media Room",
+        "photoStyle": "Hanging Clothesline Wire Polaroids + Solid Long Vertical Filmstrip",
+        "backgroundStyle": "Thick Warm Grey Canvas Background",
+        "allowStickerSwap": true,
+        "allowBackgroundGeneration": true,
+        "allowTextureSwap": true,
+        "allowPhotoRotation": true
+      },
+      "aiHints": {
+        "backgroundTextures": ["Watercolor Bleed", "Fine Canvas"],
+        "fonts": ["Architects Daughter", "Helvetica"],
+        "decorationCategories": ["Hanging Clips", "Stringlight Bulbs", "Music Controllers"],
+        "colorPalette": ["#D3CEBA", "#D6A3FB", "#FFFFAF", "#000000"],
+        "mood": "Immersive, memories-loaded, cozy room vibe",
+        "density": "very high"
+      }
+    },
+    {
+      "templateId": "mw_portrait_09_forever_text_collage",
+      "templateName": "My Forever Text Heavy Mosaic",
+      "category": "Collage",
+      "orientation": "portrait",
+      "canvas": {
+        "width": 1080,
+        "height": 1350,
+        "coordinateSystem": "percentage"
+      },
+      "background": {
+        "default": {
+          "type": "solid",
+          "color": "#DCD6C0"
+        },
+        "alternatives": [
+          { "type": "texture", "name": "Paper Grain", "url": "assets/textures/grain.jpg" },
+          { "type": "texture", "name": "Soft Dots", "url": "assets/textures/dots.jpg" }
+        ]
+      },
+      "contentSlots": [
+        "top_left_sticker",
+        "forever_header_title",
+        "top_right_sticker",
+        "compliment_text_mosaic_group",
+        "pet_owner_main_cutout_composite",
+        "bottom_left_sticker",
+        "doodle_accent_bottom"
+      ],
+      "layout": [
+        {
+          "id": "st_tl",
+          "type": "sticker",
+          "slot": "top_left_sticker",
+          "x": 6.0,
+          "y": 4.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "header_title",
+          "type": "title",
+          "slot": "forever_header_title",
+          "x": 24.0,
+          "y": 5.0,
+          "width": 54.0,
+          "height": 8.0,
+          "rotation": 0,
+          "zIndex": 16,
+          "style": { "fontFamily": "Impact, sans-serif", "fontSize": "36px", "textAlign": "center" }
+        },
+        {
+          "id": "st_tr",
+          "type": "sticker",
+          "slot": "top_right_sticker",
+          "x": 82.0,
+          "y": 4.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "mosaic_text_block_1",
+          "type": "paragraph",
+          "slot": "compliment_text_mosaic_group",
+          "x": 6.0,
+          "y": 18.0,
+          "width": 42.0,
+          "height": 14.0,
+          "rotation": -2,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "20px" }
+        },
+        {
+          "id": "mosaic_text_block_2",
+          "type": "paragraph",
+          "slot": "compliment_text_mosaic_group",
+          "x": 52.0,
+          "y": 18.0,
+          "width": 42.0,
+          "height": 14.0,
+          "rotation": 3,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "20px" }
+        },
+        {
+          "id": "main_composite_cutout",
+          "type": "person_cutout",
+          "slot": "pet_owner_main_cutout_composite",
+          "x": 10.0,
+          "y": 36.0,
+          "width": 80.0,
+          "height": 42.0,
+          "rotation": 0,
+          "zIndex": 7,
+          "style": { "border": "5px solid #FFF", "backgroundColor": "#C4BEA8" }
+        },
+        {
+          "id": "st_bl",
+          "type": "sticker",
+          "slot": "bottom_left_sticker",
+          "x": 6.0,
+          "y": 82.0,
+          "width": 14.0,
+          "height": 11.0,
+          "rotation": 0,
+          "zIndex": 15,
+          "style": { "borderRadius": "50%", "backgroundColor": "#D6A3FB" }
+        },
+        {
+          "id": "mosaic_text_block_3",
+          "type": "paragraph",
+          "slot": "compliment_text_mosaic_group",
+          "x": 24.0,
+          "y": 82.0,
+          "width": 70.0,
+          "height": 14.0,
+          "rotation": -1,
+          "zIndex": 12,
+          "style": { "fontFamily": "Architects Daughter, cursive", "fontSize": "18px" }
+        },
+        {
+          "id": "d_accent_b",
+          "type": "doodle",
+          "slot": "doodle_accent_bottom",
+          "x": 48.0,
+          "y": 97.0,
+          "width": 12.0,
+          "height": 2.5,
+          "rotation": 0,
+          "zIndex": 10
+        }
+      ],
+      "decorations": [],
+      "styleRules": {
+        "theme": "Maximalist Poster Collage",
+        "photoStyle": "Massive Centered Landscape Group Box Split",
+        "backgroundStyle": "Solid Clean Warm Khaki Tan",
+        "allowStickerSwap": true,
+        "allowBackgroundGeneration": true,
+        "allowTextureSwap": true,
+        "allowPhotoRotation": true
+      },
+      "aiHints": {
+        "backgroundTextures": ["Recycled Paper Grain", "Soft Dots Grid"],
+        "fonts": ["Impact", "Architects Daughter"],
+        "decorationCategories": ["Y2K Badges", "Sparkle Doodles", "Heart Outlines"],
+        "colorPalette": ["#DCD6C0", "#D6A3FB", "#FFFFFF"],
+        "mood": "Expressive, bold layout highlighting a hero memory",
+        "density": "dense"
+      }
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "file_reference": "Memory Weave - Portrait templates -3.pdf",
+  "templates": [
+    {
+      "id": "mw_portrait_3_page_1",
+      "name": "Cozy Diary & Polaroid Scrapbook",
+      "collection": "Memory Weave Portrait",
+      "canvas": {
+        "width_px": 1200,
+        "height_px": 1600,
+        "aspect_ratio": "3:4"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#E1DCD0",
+        "style_notes": "Warm, light beige matte paper texture background"
+      },
+      "layout_elements": [
+        {
+          "id": "photo_polaroid_top_left",
+          "type": "photo_frame",
+          "style": "polaroid_with_heart",
+          "frame_color": "#FDFBF7",
+          "coordinates": { "top": "10%", "left": "5%", "width": "35%", "height": "30%" },
+          "zIndex": 2,
+          "decorations": [
+            { "type": "washi_tape", "position": "top_center", "color": "#B8B5C0", "rotation": "-15deg", "zIndex": 4 },
+            { "type": "heart_icon", "position": "bottom_right", "color": "#000000", "zIndex": 3 }
+          ]
+        },
+        {
+          "id": "sticker_top_left_s",
+          "type": "sticker",
+          "style": "circle",
+          "color": "#E2B2FF",
+          "text_content": "S",
+          "coordinates": { "top": "15%", "left": "33%", "width": "8%", "height": "6%" },
+          "zIndex": 3
+        },
+        {
+          "id": "sticker_top_right_large",
+          "type": "sticker",
+          "style": "circle",
+          "color": "#E2B2FF",
+          "text_content": "Sticker",
+          "coordinates": { "top": "3%", "left": "78%", "width": "18%", "height": "13%" },
+          "zIndex": 3
+        },
+        {
+          "id": "text_block_top_right",
+          "type": "text_area",
+          "style": "handwritten_card",
+          "background_color": "#DECDD2",
+          "coordinates": { "top": "18%", "left": "45%", "width": "48%", "height": "32%" },
+          "zIndex": 1,
+          "placeholder_text": "FUNNY CUTE\nHandwritten\nTEXTS!"
+        },
+        {
+          "id": "text_block_center_left",
+          "type": "text_area",
+          "style": "handwritten_freestyle",
+          "coordinates": { "top": "48%", "left": "8%", "width": "35%", "height": "15%" },
+          "zIndex": 2,
+          "placeholder_text": "FUNNY CUTE\nHandwritten\nTEXTS!"
+        },
+        {
+          "id": "sticker_center_left_purple",
+          "type": "sticker",
+          "style": "circle",
+          "color": "#E2B2FF",
+          "text_content": "Sticker",
+          "coordinates": { "top": "62%", "left": "0%", "width": "16%", "height": "12%" },
+          "zIndex": 3
+        },
+        {
+          "id": "photo_polaroid_center_right",
+          "type": "photo_frame",
+          "style": "polaroid_with_heart",
+          "frame_color": "#FDFBF7",
+          "coordinates": { "top": "50%", "left": "46%", "width": "38%", "height": "30%" },
+          "zIndex": 2,
+          "decorations": [
+            { "type": "washi_tape", "position": "top_right", "color": "#B8B5C0", "rotation": "30deg", "zIndex": 4 },
+            { "type": "heart_icon", "position": "bottom_right", "color": "#000000", "zIndex": 3 }
+          ]
+        },
+        {
+          "id": "photo_polaroid_bottom_center",
+          "type": "photo_frame",
+          "style": "polaroid_with_heart",
+          "frame_color": "#FDFBF7",
+          "coordinates": { "top": "70%", "left": "18%", "width": "38%", "height": "30%" },
+          "zIndex": 3,
+          "decorations": [
+            { "type": "heart_icon", "position": "bottom_right", "color": "#000000", "zIndex": 4 }
+          ]
+        },
+        {
+          "id": "doodle_bottom_right_large",
+          "type": "doodle_placeholder",
+          "style": "circle",
+          "color": "#E2B2FF",
+          "text_content": "Doodle",
+          "coordinates": { "top": "83%", "left": "75%", "width": "25%", "height": "18%" },
+          "zIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "mw_portrait_3_page_2",
+      "name": "Instant Camera Polaroid Cascade",
+      "collection": "Memory Weave Portrait",
+      "canvas": {
+        "width_px": 1200,
+        "height_px": 1600,
+        "aspect_ratio": "3:4"
+      },
+      "background": {
+        "type": "solid",
+        "color": "#D2CFC2",
+        "style_notes": "Muted sage-tinted beige background"
+      },
+      "layout_elements": [
+        {
+          "id": "polaroid_grid_container",
+          "type": "composite_group",
+          "description": "Cascading cluster of 11 small mini-polaroid film shots",
+          "elements": [
+            { "id": "p1", "type": "mini_polaroid", "coordinates": { "top": "2%", "left": "5%", "width": "22%", "height": "18%" }, "rotation": "-3deg" },
+            { "id": "p2", "type": "mini_polaroid", "coordinates": { "top": "1%", "left": "30%", "width": "22%", "height": "18%" }, "rotation": "1deg" },
+            { "id": "p3", "type": "mini_polaroid", "coordinates": { "top": "2%", "left": "53%", "width": "22%", "height": "18%" }, "rotation": "-2deg" },
+            { "id": "p4", "type": "mini_polaroid", "coordinates": { "top": "2%", "left": "75%", "width": "22%", "height": "18%" }, "rotation": "4deg" },
+            { "id": "p5", "type": "mini_polaroid", "coordinates": { "top": "15%", "left": "4%", "width": "22%", "height": "18%" }, "rotation": "-1deg" },
+            { "id": "p6", "type": "mini_polaroid", "coordinates": { "top": "16%", "left": "29%", "width": "22%", "height": "18%" }, "rotation": "3deg" },
+            { "id": "p7", "type": "mini_polaroid", "coordinates": { "top": "15%", "left": "52%", "width": "22%", "height": "18%" }, "rotation": "-2deg" },
+            { "id": "p8", "type": "mini_polaroid", "coordinates": { "top": "18%", "left": "74%", "width": "22%", "height": "18%" }, "rotation": "-4deg" },
+            { "id": "p9", "type": "mini_polaroid", "coordinates": { "top": "29%", "left": "3%", "width": "22%", "height": "18%" }, "rotation": "2deg" },
+            { "id": "p10", "type": "mini_polaroid", "coordinates": { "top": "33%", "left": "28%", "width": "22%", "height": "18%" }, "rotation": "-1deg" },
+            { "id": "p11", "type": "mini_polaroid", "coordinates": { "top": "32%", "left": "51%", "width": "22%", "height": "18%" }, "rotation": "3deg" },
+            { "id": "p12", "type": "mini_polaroid", "coordinates": { "top": "38%", "left": "73%", "width": "22%", "height": "18%" }, "rotation": "1deg" }
+          ],
+          "zIndex": 2
+        },
+        {
+          "id": "illustration_instant_camera",
+          "type": "graphic_element",
+          "style": "pastel_green_instax",
+          "coordinates": { "top": "62%", "left": "28%", "width": "68%", "height": "38%" },
+          "zIndex": 3,
+          "overlay_text": [
+            { "text": "SMILEE", "font_style": "serif_gold", "coordinates": { "top": "66%", "left": "5%" } },
+            { "text": "CLICK\"", "font_style": "serif_gold", "coordinates": { "top": "72%", "left": "70%" } }
+          ]
+        },
+        {
+          "id": "doodle_square_bottom_left",
+          "type": "doodle_placeholder",
+          "style": "square_card",
+          "background_color": "#C9C5B6",
+          "text_content": "Doodle",
+          "coordinates": { "top": "75%", "left": "2%", "width": "30%", "height": "22%" },
+          "zIndex": 4
+        },
+        {
+          "id": "sparkle_accent",
+          "type": "vector_graphic",
+          "style": "four_point_star",
+          "color": "#F3E195",
+          "coordinates": { "top": "59%", "left": "27%", "width": "6%", "height": "6%" },
+          "zIndex": 4
+        }
+      ]
+    }
+  ]
+}

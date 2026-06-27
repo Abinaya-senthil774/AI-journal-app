@@ -1,0 +1,175 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Canonical Template Gallery</title>
+<style>
+body { font-family:-apple-system,Helvetica,sans-serif; max-width:960px; margin:40px auto; padding:0 24px; background:#fafafa; color:#222; }
+h1 { font-size:22px; margin-bottom:4px; }
+.subtitle { color:#888; font-size:13px; margin-bottom:28px; }
+.resolution-box { background:#e8f5e9; border-left:4px solid #4caf50; padding:14px 18px;
+                   border-radius:4px; margin-bottom:32px; font-size:13px; line-height:1.7; }
+.resolution-box strong { color:#2e7d32; }
+.resolution-box code { background:#c8e6c9; padding:1px 5px; border-radius:3px; font-size:12px; }
+.schema-section { margin-bottom:36px; }
+h2 { font-size:15px; border-bottom:2px solid #e0e0e0; padding-bottom:6px; margin-bottom:12px; }
+table { width:100%; border-collapse:collapse; font-size:13px; }
+th { text-align:left; padding:8px 10px; background:#f5f5f5; border-bottom:2px solid #ddd; color:#555; font-size:12px; letter-spacing:.04em; }
+td { padding:8px 10px; border-bottom:1px solid #eee; vertical-align:top; }
+tr:hover td { background:#f9f9f9; }
+a { color:#1565c0; text-decoration:none; }
+a:hover { text-decoration:underline; }
+.compare-link { display:inline-block; background:#fff3e0; color:#e65100; border:1px solid #ffcc80;
+                 padding:4px 10px; border-radius:12px; font-size:11px; font-weight:600;
+                 text-decoration:none; margin-top:8px; }
+.compare-link:hover { background:#ffe0b2; text-decoration:none; }
+.chip { display:inline-block; padding:2px 8px; border-radius:10px; font-size:10px; font-weight:600; }
+.chip-a { background:#e3f2fd; color:#0d47a1; }
+.chip-b { background:#f3e5f5; color:#4a148c; }
+</style></head>
+<body>
+
+<h1>Canonical Template Gallery — Resolved</h1>
+<div class="subtitle">19 templates · 2 schemas · 1 authoritative source per template</div>
+
+<div class="resolution-box">
+  <strong>Resolution applied:</strong> Template 1.json (layouts 01–04) was a strict subset of Template 2.json with identical layout data.
+  The only difference was a metadata label (<code>source: Template 1.json</code> vs <code>source: Template 2.json</code>).
+  <strong>Template 1.json has been retired.</strong> Template 2.json is now the single canonical source for all Schema A single-page layouts.
+  Layer 4 (text generator) and Layer 5 (PDF renderer) should point to <code>Template 2.json</code> only.
+  <br><br>
+  Schema A (<code>layout</code> array, numeric x/y/w/h, camelCase style) covers single-page layouts (Templates 2).
+  Schema B (<code>layout_elements</code> array, % strings, nested inner_elements) covers multi-page layouts (Templates 3–5).
+  Standardise on Schema B for any new templates going forward — it is more expressive and already the majority schema.
+  <br><br>
+  <a class="compare-link" href="COMPARISON__mw_portrait_02_music_heavy.html">👁 View side-by-side diff: mw_portrait_02_music_heavy (T1 vs T2)</a>
+</div>
+
+<div class="schema-section">
+  <h2><span class="chip chip-a">Schema A</span> &nbsp; Single-page layouts — Source: Template 2.json &nbsp; (9 templates)</h2>
+  <table>
+    <tr><th>#</th><th>Name</th><th>Category</th><th>Source</th><th>Notes</th></tr>
+    <tr>
+      <td>1</td>
+      <td><a href="Template_2__mw_portrait_01_diary_wheel.html">Diary Wheel</a></td>
+      <td>Memory Journal</td>
+      <td><code>Template 2.json</code></td>
+      <td style="font-size:11px;color:#888;">⭐ was duplicated in Template 1.json — Template 1 retired</td>
+    </tr><tr>
+      <td>2</td>
+      <td><a href="Template_2__mw_portrait_02_music_heavy.html">Music Heavy</a></td>
+      <td>Album Cover & Collage</td>
+      <td><code>Template 2.json</code></td>
+      <td style="font-size:11px;color:#888;">⭐ was duplicated in Template 1.json — Template 1 retired</td>
+    </tr><tr>
+      <td>3</td>
+      <td><a href="Template_2__mw_portrait_03_grid_journal.html">Grid Journal</a></td>
+      <td>Memory Journal</td>
+      <td><code>Template 2.json</code></td>
+      <td style="font-size:11px;color:#888;">⭐ was duplicated in Template 1.json — Template 1 retired</td>
+    </tr><tr>
+      <td>4</td>
+      <td><a href="Template_2__mw_portrait_04_dense_collage.html">Dense Collage</a></td>
+      <td>Collage</td>
+      <td><code>Template 2.json</code></td>
+      <td style="font-size:11px;color:#888;">⭐ was duplicated in Template 1.json — Template 1 retired</td>
+    </tr><tr>
+      <td>5</td>
+      <td><a href="Template_2__mw_portrait_05_pet_album_cover.html">Pet Album Cover</a></td>
+      <td>Pet Chronicles</td>
+      <td><code>Template 2.json</code></td>
+      <td style="font-size:11px;color:#888;">Template 2 exclusive</td>
+    </tr><tr>
+      <td>6</td>
+      <td><a href="Template_2__mw_portrait_06_pet_plate_diary.html">Pet Plate Diary</a></td>
+      <td>Pet Chronicles</td>
+      <td><code>Template 2.json</code></td>
+      <td style="font-size:11px;color:#888;">Template 2 exclusive</td>
+    </tr><tr>
+      <td>7</td>
+      <td><a href="Template_2__mw_portrait_07_the_best_i_had.html">The Best I Had</a></td>
+      <td>Memory Canvas</td>
+      <td><code>Template 2.json</code></td>
+      <td style="font-size:11px;color:#888;">Template 2 exclusive</td>
+    </tr><tr>
+      <td>8</td>
+      <td><a href="Template_2__mw_portrait_08_stringlight_film.html">Stringlight Film</a></td>
+      <td>Film & Room</td>
+      <td><code>Template 2.json</code></td>
+      <td style="font-size:11px;color:#888;">Template 2 exclusive</td>
+    </tr><tr>
+      <td>9</td>
+      <td><a href="Template_2__mw_portrait_09_forever_text_collage.html">Forever Text Mosaic</a></td>
+      <td>Text Collage</td>
+      <td><code>Template 2.json</code></td>
+      <td style="font-size:11px;color:#888;">Template 2 exclusive</td>
+    </tr>
+  </table>
+</div>
+
+<div class="schema-section">
+  <h2><span class="chip chip-b">Schema B</span> &nbsp; Multi-page layouts — Source: Templates 3–5.json &nbsp; (10 templates)</h2>
+  <table>
+    <tr><th>#</th><th>Name</th><th>Category</th><th>Source</th><th>Notes</th></tr>
+    <tr>
+      <td>1</td>
+      <td><a href="Template_3__mw_portrait_3_page_1.html">3-Page · Page 1</a></td>
+      <td>Multi-page</td>
+      <td><code>Template 3.json</code></td>
+      <td style="font-size:11px;color:#888;">Schema B (coordinates as % strings)</td>
+    </tr><tr>
+      <td>2</td>
+      <td><a href="Template_3__mw_portrait_3_page_2.html">3-Page · Page 2</a></td>
+      <td>Multi-page</td>
+      <td><code>Template 3.json</code></td>
+      <td style="font-size:11px;color:#888;">Schema B (coordinates as % strings)</td>
+    </tr><tr>
+      <td>3</td>
+      <td><a href="Template_4__mw_portrait_4_page_1.html">4-Page · Page 1</a></td>
+      <td>Multi-page</td>
+      <td><code>Template 4.json</code></td>
+      <td style="font-size:11px;color:#888;">Schema B (coordinates as % strings)</td>
+    </tr><tr>
+      <td>4</td>
+      <td><a href="Template_4__mw_portrait_4_page_2.html">4-Page · Page 2</a></td>
+      <td>Multi-page</td>
+      <td><code>Template 4.json</code></td>
+      <td style="font-size:11px;color:#888;">Schema B (coordinates as % strings)</td>
+    </tr><tr>
+      <td>5</td>
+      <td><a href="Template_4__mw_portrait_4_page_3.html">4-Page · Page 3</a></td>
+      <td>Multi-page</td>
+      <td><code>Template 4.json</code></td>
+      <td style="font-size:11px;color:#888;">Schema B (coordinates as % strings)</td>
+    </tr><tr>
+      <td>6</td>
+      <td><a href="Template_4__mw_portrait_4_page_4.html">4-Page · Page 4</a></td>
+      <td>Multi-page</td>
+      <td><code>Template 4.json</code></td>
+      <td style="font-size:11px;color:#888;">Schema B (coordinates as % strings)</td>
+    </tr><tr>
+      <td>7</td>
+      <td><a href="Template_4__mw_portrait_4_page_5.html">4-Page · Page 5</a></td>
+      <td>Multi-page</td>
+      <td><code>Template 4.json</code></td>
+      <td style="font-size:11px;color:#888;">Schema B (coordinates as % strings)</td>
+    </tr><tr>
+      <td>8</td>
+      <td><a href="Template_5__mw_portrait_5_page_1.html">5-Page · Page 1</a></td>
+      <td>Multi-page</td>
+      <td><code>Template 5.json</code></td>
+      <td style="font-size:11px;color:#888;">Schema B (coordinates as % strings)</td>
+    </tr><tr>
+      <td>9</td>
+      <td><a href="Template_5__mw_portrait_5_page_2.html">5-Page · Page 2</a></td>
+      <td>Multi-page</td>
+      <td><code>Template 5.json</code></td>
+      <td style="font-size:11px;color:#888;">Schema B (coordinates as % strings)</td>
+    </tr><tr>
+      <td>10</td>
+      <td><a href="Template_5__mw_portrait_5_page_3.html">5-Page · Page 3</a></td>
+      <td>Multi-page</td>
+      <td><code>Template 5.json</code></td>
+      <td style="font-size:11px;color:#888;">Schema B (coordinates as % strings)</td>
+    </tr>
+  </table>
+</div>
+
+</body></html>
