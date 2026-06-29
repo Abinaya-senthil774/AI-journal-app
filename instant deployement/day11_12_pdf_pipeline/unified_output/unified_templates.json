@@ -1,0 +1,3929 @@
+[
+  {
+    "template_id": "mw_portrait_01_diary_wheel",
+    "name": "Diary Reflections & Photo Wheel",
+    "category": "Memory Journal",
+    "source_file": "Template 2.json",
+    "canvas": {
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "background_color": "#E3DEC3",
+    "elements": [
+      {
+        "id": "diary_text_top_box",
+        "type": "paragraph",
+        "slot": "diary_text_top",
+        "text": null,
+        "x": 2.0,
+        "y": 2.0,
+        "w": 35.0,
+        "h": 22.0,
+        "rotation": 0.0,
+        "z_index": 10,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "24px",
+          "color": "#2C2A29",
+          "background-color": "#F4F1E6",
+          "padding": "15px",
+          "text-align": "left"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "wheel_container",
+        "type": "photo_group",
+        "slot": null,
+        "text": null,
+        "x": 42.0,
+        "y": 2.0,
+        "w": 55.0,
+        "h": 44.0,
+        "rotation": 0.0,
+        "z_index": 5,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "photo_w1",
+        "type": "photo",
+        "slot": "photo_wheel_1",
+        "text": null,
+        "x": 60.0,
+        "y": 4.0,
+        "w": 18.0,
+        "h": 16.0,
+        "rotation": 30.0,
+        "z_index": 6,
+        "css": {
+          "clip-path": "polygon(50% 50%, 100% 0, 100% 50%)",
+          "filter": "drop-shadow(2px 4px 6px rgba(0,0,0,0.15))"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "photo_w2",
+        "type": "photo",
+        "slot": "photo_wheel_2",
+        "text": null,
+        "x": 75.0,
+        "y": 15.0,
+        "w": 18.0,
+        "h": 16.0,
+        "rotation": 90.0,
+        "z_index": 6,
+        "css": {
+          "clip-path": "polygon(50% 50%, 100% 0, 100% 50%)"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "photo_w3",
+        "type": "photo",
+        "slot": "photo_wheel_3",
+        "text": null,
+        "x": 70.0,
+        "y": 28.0,
+        "w": 18.0,
+        "h": 16.0,
+        "rotation": 150.0,
+        "z_index": 6,
+        "css": {
+          "clip-path": "polygon(50% 50%, 100% 0, 100% 50%)"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "photo_w4",
+        "type": "photo",
+        "slot": "photo_wheel_4",
+        "text": null,
+        "x": 52.0,
+        "y": 28.0,
+        "w": 18.0,
+        "h": 16.0,
+        "rotation": 210.0,
+        "z_index": 6,
+        "css": {
+          "clip-path": "polygon(50% 50%, 100% 0, 100% 50%)"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "photo_w5",
+        "type": "photo",
+        "slot": "photo_wheel_5",
+        "text": null,
+        "x": 44.0,
+        "y": 14.0,
+        "w": 18.0,
+        "h": 16.0,
+        "rotation": 270.0,
+        "z_index": 6,
+        "css": {
+          "clip-path": "polygon(50% 50%, 100% 0, 100% 50%)"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "photo_w6",
+        "type": "photo",
+        "slot": "photo_wheel_6",
+        "text": null,
+        "x": 48.0,
+        "y": 3.0,
+        "w": 18.0,
+        "h": 16.0,
+        "rotation": 330.0,
+        "z_index": 6,
+        "css": {
+          "clip-path": "polygon(50% 50%, 100% 0, 100% 50%)"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_left",
+        "type": "person_cutout",
+        "slot": "person_cutout_left_mid",
+        "text": null,
+        "x": 15.0,
+        "y": 32.0,
+        "w": 24.0,
+        "h": 30.0,
+        "rotation": 0.0,
+        "z_index": 8,
+        "css": {
+          "background-color": "#DDD9C5",
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_mid_l",
+        "type": "sticker",
+        "slot": "sticker_left_mid",
+        "text": null,
+        "x": -2.0,
+        "y": 46.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 25,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "motivation_text_1",
+        "type": "title",
+        "slot": "motivational_title_1",
+        "text": null,
+        "x": 28.0,
+        "y": 51.0,
+        "w": 42.0,
+        "h": 8.0,
+        "rotation": -11.0,
+        "z_index": 15,
+        "css": {
+          "font-family": "Permanent Marker, sans-serif",
+          "font-size": "26px",
+          "text-align": "center"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "body_text_main",
+        "type": "paragraph",
+        "slot": "body_text_center",
+        "text": null,
+        "x": 26.0,
+        "y": 58.0,
+        "w": 43.0,
+        "h": 14.0,
+        "rotation": -10.0,
+        "z_index": 15,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "22px",
+          "text-align": "center"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "motivation_text_2",
+        "type": "subtitle",
+        "slot": "motivational_title_2",
+        "text": null,
+        "x": 12.0,
+        "y": 70.0,
+        "w": 15.0,
+        "h": 8.0,
+        "rotation": -12.0,
+        "z_index": 15,
+        "css": {
+          "font-family": "Permanent Marker, sans-serif",
+          "font-size": "16px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_bot_l",
+        "type": "sticker",
+        "slot": "sticker_left_bottom",
+        "text": null,
+        "x": 2.0,
+        "y": 83.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 25,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_bot_center",
+        "type": "person_cutout",
+        "slot": "person_cutout_bottom_center",
+        "text": null,
+        "x": 26.0,
+        "y": 74.0,
+        "w": 21.0,
+        "h": 26.0,
+        "rotation": 0.0,
+        "z_index": 8,
+        "css": {
+          "background-color": "#DDD9C5",
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_bot",
+        "type": "doodle",
+        "slot": "doodle_bottom_center",
+        "text": null,
+        "x": 50.0,
+        "y": 80.0,
+        "w": 13.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 12,
+        "css": {
+          "border": "3px solid #FFF",
+          "background-color": "#DDD9C5"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_right_mid",
+        "type": "doodle",
+        "slot": "doodle_top_right",
+        "text": null,
+        "x": 73.0,
+        "y": 45.0,
+        "w": 21.0,
+        "h": 6.0,
+        "rotation": 0.0,
+        "z_index": 12,
+        "css": {
+          "border": "3px solid #FFF",
+          "background-color": "#DDD9C5"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_right",
+        "type": "person_cutout",
+        "slot": "person_cutout_right_bottom",
+        "text": null,
+        "x": 67.0,
+        "y": 50.0,
+        "w": 31.0,
+        "h": 48.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {
+          "background-color": "#DDD9C5",
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_02_music_heavy",
+    "name": "Editorial Music Card Collage",
+    "category": "Album Cover & Collage",
+    "source_file": "Template 2.json",
+    "canvas": {
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "background_color": "#D3CEBA",
+    "elements": [
+      {
+        "id": "polaroid_tl",
+        "type": "polaroid",
+        "slot": "polaroid_top_left",
+        "text": null,
+        "x": 0.0,
+        "y": 1.0,
+        "w": 34.0,
+        "h": 18.0,
+        "rotation": -5.0,
+        "z_index": 10,
+        "css": {
+          "background-color": "#222",
+          "border": "12px solid #FFF",
+          "box-shadow": "0 4px 10px rgba(0,0,0,0.3)"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_tc",
+        "type": "sticker",
+        "slot": "sticker_top_center",
+        "text": null,
+        "x": 39.0,
+        "y": -3.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 20,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_tr",
+        "type": "person_cutout",
+        "slot": "person_cutout_top_right",
+        "text": null,
+        "x": 55.0,
+        "y": 0.0,
+        "w": 19.0,
+        "h": 13.0,
+        "rotation": 0.0,
+        "z_index": 6,
+        "css": {
+          "background-color": "#C4C0AC"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "film_strip_r",
+        "type": "film_strip",
+        "slot": "film_strip_right",
+        "text": null,
+        "x": 68.0,
+        "y": -8.0,
+        "w": 35.0,
+        "h": 35.0,
+        "rotation": 28.0,
+        "z_index": 5,
+        "css": {
+          "background-color": "#000"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "text_img_box",
+        "type": "paragraph",
+        "slot": "text_image_box",
+        "text": null,
+        "x": 42.0,
+        "y": 12.0,
+        "w": 21.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 11,
+        "css": {
+          "background-color": "#C4C0AC",
+          "border": "3px solid #FFF",
+          "padding": "10px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "torn_img",
+        "type": "torn_photo",
+        "slot": "torn_style_image",
+        "text": null,
+        "x": 64.0,
+        "y": 14.0,
+        "w": 35.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 9,
+        "css": {
+          "background-color": "#C4C0AC",
+          "border": "3px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_ml1",
+        "type": "sticker",
+        "slot": "sticker_mid_left",
+        "text": null,
+        "x": 4.0,
+        "y": 23.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 22,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "title_main",
+        "type": "title",
+        "slot": "main_title",
+        "text": null,
+        "x": 12.0,
+        "y": 35.0,
+        "w": 84.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "font-family": "Impact, sans-serif",
+          "font-size": "70px",
+          "letter-spacing": "15px",
+          "text-align": "center"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_ml2",
+        "type": "sticker",
+        "slot": "sticker_mid_left_2",
+        "text": null,
+        "x": 3.0,
+        "y": 48.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 22,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_c",
+        "type": "sticker",
+        "slot": "sticker_center",
+        "text": null,
+        "x": 34.0,
+        "y": 52.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 22,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "quote_mr",
+        "type": "paragraph",
+        "slot": "motivational_quote_mid_right",
+        "text": null,
+        "x": 55.0,
+        "y": 48.0,
+        "w": 38.0,
+        "h": 11.0,
+        "rotation": -4.0,
+        "z_index": 16,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "22px",
+          "text-align": "center"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_lm",
+        "type": "doodle",
+        "slot": "doodle_left_mid",
+        "text": null,
+        "x": 8.0,
+        "y": 58.0,
+        "w": 11.0,
+        "h": 11.0,
+        "rotation": 90.0,
+        "z_index": 14,
+        "css": {
+          "border": "2px solid #FFF",
+          "background-color": "#C4C0AC"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "music_player_card",
+        "type": "music_card",
+        "slot": null,
+        "text": null,
+        "x": 14.0,
+        "y": 64.0,
+        "w": 42.0,
+        "h": 34.0,
+        "rotation": 0.0,
+        "z_index": 18,
+        "css": {
+          "background-color": "#FFF",
+          "border-radius": "40px",
+          "padding": "20px",
+          "box-shadow": "0 10px 25px rgba(0,0,0,0.1)"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "music_cover_img",
+        "type": "song_cover",
+        "slot": "song_cover",
+        "text": null,
+        "x": 17.0,
+        "y": 65.0,
+        "w": 36.0,
+        "h": 22.0,
+        "rotation": 0.0,
+        "z_index": 19,
+        "css": {
+          "background-color": "#D6A3FB",
+          "border-radius": "25px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "music_meta_name",
+        "type": "text",
+        "slot": "song_name",
+        "text": null,
+        "x": 17.0,
+        "y": 91.0,
+        "w": 25.0,
+        "h": 30.0,
+        "rotation": 0.0,
+        "z_index": 20,
+        "css": {
+          "font-family": "sans-serif",
+          "font-weight": "bold",
+          "font-size": "16px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "music_meta_artist",
+        "type": "text",
+        "slot": "artist_name",
+        "text": null,
+        "x": 17.0,
+        "y": 93.5,
+        "w": 25.0,
+        "h": 30.0,
+        "rotation": 0.0,
+        "z_index": 20,
+        "css": {
+          "font-family": "sans-serif",
+          "color": "#666",
+          "font-size": "14px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "img_sq_b",
+        "type": "photo",
+        "slot": "image_square_bottom",
+        "text": null,
+        "x": 51.0,
+        "y": 63.0,
+        "w": 20.0,
+        "h": 13.0,
+        "rotation": 0.0,
+        "z_index": 8,
+        "css": {
+          "background-color": "#C4C0AC"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_rb",
+        "type": "person_cutout",
+        "slot": "person_cutout_bottom_right",
+        "text": null,
+        "x": 71.0,
+        "y": 57.0,
+        "w": 28.0,
+        "h": 42.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {
+          "background-color": "#C4C0AC"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_bl",
+        "type": "sticker",
+        "slot": "sticker_bottom_left",
+        "text": null,
+        "x": -1.0,
+        "y": 90.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 22,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_03_grid_journal",
+    "name": "Structured Diary Canvas",
+    "category": "Memory Journal",
+    "source_file": "Template 2.json",
+    "canvas": {
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "background_color": "#DCD7C2",
+    "elements": [
+      {
+        "id": "p_tl",
+        "type": "photo",
+        "slot": "photo_top_left",
+        "text": null,
+        "x": 5.0,
+        "y": 3.0,
+        "w": 18.0,
+        "h": 13.0,
+        "rotation": 0.0,
+        "z_index": 5,
+        "css": {
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "p_tr",
+        "type": "photo",
+        "slot": "photo_top_right",
+        "text": null,
+        "x": 26.0,
+        "y": 3.0,
+        "w": 18.0,
+        "h": 13.0,
+        "rotation": 0.0,
+        "z_index": 5,
+        "css": {
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "d_tm",
+        "type": "doodle",
+        "slot": "doodle_top_mid",
+        "text": null,
+        "x": 48.0,
+        "y": 4.0,
+        "w": 15.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 10,
+        "css": {
+          "border": "3px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "p_ml",
+        "type": "photo",
+        "slot": "photo_mid_left",
+        "text": null,
+        "x": 67.0,
+        "y": 3.0,
+        "w": 14.0,
+        "h": 13.0,
+        "rotation": 0.0,
+        "z_index": 5,
+        "css": {
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "p_mr",
+        "type": "photo",
+        "slot": "photo_mid_right",
+        "text": null,
+        "x": 84.0,
+        "y": 3.0,
+        "w": 12.0,
+        "h": 13.0,
+        "rotation": 0.0,
+        "z_index": 5,
+        "css": {
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "hw_text_m",
+        "type": "paragraph",
+        "slot": "handwritten_text_mid",
+        "text": null,
+        "x": 5.0,
+        "y": 18.0,
+        "w": 38.0,
+        "h": 14.0,
+        "rotation": 0.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "22px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "m_quote_c",
+        "type": "paragraph",
+        "slot": "motivational_quote_center",
+        "text": null,
+        "x": 5.0,
+        "y": 34.0,
+        "w": 90.0,
+        "h": 12.0,
+        "rotation": -2.0,
+        "z_index": 15,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "26px",
+          "text-align": "center"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_cl",
+        "type": "sticker",
+        "slot": "sticker_center_left",
+        "text": null,
+        "x": 6.0,
+        "y": 48.0,
+        "w": 12.0,
+        "h": 9.0,
+        "rotation": 0.0,
+        "z_index": 20,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "d_cr",
+        "type": "doodle",
+        "slot": "doodle_center_right",
+        "text": null,
+        "x": 22.0,
+        "y": 48.0,
+        "w": 14.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 10,
+        "css": {
+          "border": "3px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "c_bl",
+        "type": "person_cutout",
+        "slot": "person_cutout_bottom_left",
+        "text": null,
+        "x": 42.0,
+        "y": 48.0,
+        "w": 14.0,
+        "h": 17.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "c_bm",
+        "type": "person_cutout",
+        "slot": "person_cutout_bottom_mid",
+        "text": null,
+        "x": 60.0,
+        "y": 48.0,
+        "w": 15.0,
+        "h": 17.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "c_br",
+        "type": "person_cutout",
+        "slot": "person_cutout_bottom_right",
+        "text": null,
+        "x": 78.0,
+        "y": 48.0,
+        "w": 17.0,
+        "h": 17.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "d_bot_strip",
+        "type": "doodle",
+        "slot": "doodle_bottom_strip",
+        "text": null,
+        "x": 5.0,
+        "y": 68.0,
+        "w": 90.0,
+        "h": 28.0,
+        "rotation": 0.0,
+        "z_index": 4,
+        "css": {
+          "background-color": "#CBBF9E",
+          "opacity": 0.5
+        },
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_04_dense_collage",
+    "name": "Maximalist Storyteller Collage",
+    "category": "Collage",
+    "source_file": "Template 2.json",
+    "canvas": {
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "background_color": "#DAD4BE",
+    "elements": [
+      {
+        "id": "text_block_dense_1",
+        "type": "paragraph",
+        "slot": "text_group_mid",
+        "text": null,
+        "x": 5.0,
+        "y": 4.0,
+        "w": 42.0,
+        "h": 10.0,
+        "rotation": -3.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "20px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "text_block_dense_2",
+        "type": "paragraph",
+        "slot": "text_group_mid",
+        "text": null,
+        "x": 52.0,
+        "y": 4.0,
+        "w": 42.0,
+        "h": 10.0,
+        "rotation": 2.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "20px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_dense_1",
+        "type": "sticker",
+        "slot": "sticker_group_top",
+        "text": null,
+        "x": 8.0,
+        "y": 18.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 20,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_dense_2",
+        "type": "sticker",
+        "slot": "sticker_group_top",
+        "text": null,
+        "x": 26.0,
+        "y": 18.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 20,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_dense_1",
+        "type": "doodle",
+        "slot": "doodle_accents",
+        "text": null,
+        "x": 45.0,
+        "y": 18.0,
+        "w": 16.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 10,
+        "css": {
+          "border": "3px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "text_block_dense_3",
+        "type": "paragraph",
+        "slot": "text_group_mid",
+        "text": null,
+        "x": 66.0,
+        "y": 18.0,
+        "w": 28.0,
+        "h": 12.0,
+        "rotation": -1.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "18px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_composite_1",
+        "type": "person_cutout",
+        "slot": "cutouts_composite_bottom",
+        "text": null,
+        "x": 5.0,
+        "y": 35.0,
+        "w": 28.0,
+        "h": 60.0,
+        "rotation": 0.0,
+        "z_index": 8,
+        "css": {
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_composite_2",
+        "type": "person_cutout",
+        "slot": "cutouts_composite_bottom",
+        "text": null,
+        "x": 36.0,
+        "y": 35.0,
+        "w": 28.0,
+        "h": 60.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_composite_3",
+        "type": "person_cutout",
+        "slot": "cutouts_composite_bottom",
+        "text": null,
+        "x": 67.0,
+        "y": 35.0,
+        "w": 28.0,
+        "h": 60.0,
+        "rotation": 0.0,
+        "z_index": 8,
+        "css": {
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_05_pet_album_cover",
+    "name": "Pet Chronicles Album Cover",
+    "category": "Album Cover",
+    "source_file": "Template 2.json",
+    "canvas": {
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "background_color": "#D7D2BE",
+    "elements": [
+      {
+        "id": "album_title_container",
+        "type": "shape",
+        "slot": null,
+        "text": null,
+        "x": 20.0,
+        "y": 18.0,
+        "w": 64.0,
+        "h": 26.0,
+        "rotation": 0.0,
+        "z_index": 5,
+        "css": {
+          "background-color": "#FFFFAF",
+          "border": "4px dashed #000"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "album_title_text",
+        "type": "title",
+        "slot": "album_title",
+        "text": null,
+        "x": 24.0,
+        "y": 24.0,
+        "w": 56.0,
+        "h": 14.0,
+        "rotation": 0.0,
+        "z_index": 6,
+        "css": {
+          "font-family": "Impact, sans-serif",
+          "font-size": "48px",
+          "text-align": "center"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "pet_cutout_tl",
+        "type": "photo",
+        "slot": "pet_cutout_top_left",
+        "text": null,
+        "x": 4.0,
+        "y": 2.0,
+        "w": 26.0,
+        "h": 16.0,
+        "rotation": 0.0,
+        "z_index": 4,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#C5BFAB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_pet_stand",
+        "type": "sticker",
+        "slot": "sticker_pet_standing",
+        "text": null,
+        "x": 40.0,
+        "y": 4.0,
+        "w": 28.0,
+        "h": 15.0,
+        "rotation": 0.0,
+        "z_index": 12,
+        "css": {
+          "background-color": "#D6A3FB",
+          "border-radius": "50%"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "badge_footprint",
+        "type": "icon",
+        "slot": "badge_animal_footprint",
+        "text": null,
+        "x": 76.0,
+        "y": 40.0,
+        "w": 16.0,
+        "h": 13.0,
+        "rotation": 0.0,
+        "z_index": 11,
+        "css": {
+          "background-color": "#FFFFAF",
+          "border-radius": "50%"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_dec_l",
+        "type": "sticker",
+        "slot": "sticker_decorative_left",
+        "text": null,
+        "x": 2.0,
+        "y": 48.0,
+        "w": 24.0,
+        "h": 15.0,
+        "rotation": 0.0,
+        "z_index": 10,
+        "css": {
+          "background-color": "#D6A3FB",
+          "border-radius": "50%"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "pet_cutout_bc1",
+        "type": "photo",
+        "slot": "pet_cutout_bottom_center_1",
+        "text": null,
+        "x": 32.0,
+        "y": 45.0,
+        "w": 16.0,
+        "h": 22.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "pet_cutout_bc2",
+        "type": "photo",
+        "slot": "pet_cutout_bottom_center_2",
+        "text": null,
+        "x": 50.0,
+        "y": 55.0,
+        "w": 16.0,
+        "h": 22.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "pet_wish_badge",
+        "type": "paragraph",
+        "slot": "pet_wish_text_badge",
+        "text": null,
+        "x": 4.0,
+        "y": 80.0,
+        "w": 62.0,
+        "h": 12.0,
+        "rotation": -4.0,
+        "z_index": 15,
+        "css": {
+          "background-color": "#FFFFAF",
+          "font-family": "Architects Daughter, cursive",
+          "padding": "10px",
+          "font-size": "20px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_frame_br",
+        "type": "doodle",
+        "slot": "doodle_frame_bottom_right",
+        "text": null,
+        "x": 68.0,
+        "y": 72.0,
+        "w": 30.0,
+        "h": 26.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {
+          "background-color": "#C5BFAB",
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_06_pet_plate_diary",
+    "name": "Pet Plate Name Engraved Diary",
+    "category": "Memory Journal",
+    "source_file": "Template 2.json",
+    "canvas": {
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "background_color": "#D4CFA9",
+    "elements": [
+      {
+        "id": "plate_title_container",
+        "type": "shape",
+        "slot": "pet_engraved_plate_title",
+        "text": null,
+        "x": 25.0,
+        "y": 4.0,
+        "w": 50.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 10,
+        "css": {
+          "background-color": "#EBE7D3",
+          "border": "2px solid #555",
+          "border-radius": "6px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_tl",
+        "type": "sticker",
+        "slot": "sticker_top_left",
+        "text": null,
+        "x": 4.0,
+        "y": 3.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_tr",
+        "type": "sticker",
+        "slot": "sticker_top_right",
+        "text": null,
+        "x": 82.0,
+        "y": 4.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "p_q1",
+        "type": "photo",
+        "slot": "photo_quad_1",
+        "text": null,
+        "x": 8.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 14.0,
+        "rotation": 0.0,
+        "z_index": 6,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "p_q2",
+        "type": "photo",
+        "slot": "photo_quad_2",
+        "text": null,
+        "x": 28.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 14.0,
+        "rotation": 0.0,
+        "z_index": 6,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "p_q3",
+        "type": "photo",
+        "slot": "photo_quad_3",
+        "text": null,
+        "x": 48.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 14.0,
+        "rotation": 0.0,
+        "z_index": 6,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "p_q_coll",
+        "type": "photo_group",
+        "slot": "photo_quad_collage",
+        "text": null,
+        "x": 68.0,
+        "y": 16.0,
+        "w": 26.0,
+        "h": 22.0,
+        "rotation": 5.0,
+        "z_index": 5,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_ml",
+        "type": "sticker",
+        "slot": "sticker_mid_left",
+        "text": null,
+        "x": 4.0,
+        "y": 42.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "diary_long_box",
+        "type": "paragraph",
+        "slot": "diary_cutout_long_text",
+        "text": null,
+        "x": 20.0,
+        "y": 45.0,
+        "w": 72.0,
+        "h": 48.0,
+        "rotation": 0.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "22px",
+          "line-height": "1.6"
+        },
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_07_the_best_i_had",
+    "name": "The Best I Had Memory Canvas",
+    "category": "Memory Journal",
+    "source_file": "Template 2.json",
+    "canvas": {
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "background_color": "#D1CBA8",
+    "elements": [
+      {
+        "id": "d_tl",
+        "type": "doodle",
+        "slot": "doodle_top_left",
+        "text": null,
+        "x": 6.0,
+        "y": 4.0,
+        "w": 12.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 10,
+        "css": {
+          "border": "2px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_tm",
+        "type": "sticker",
+        "slot": "sticker_top_mid",
+        "text": null,
+        "x": 26.0,
+        "y": 3.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "txt_tr",
+        "type": "text",
+        "slot": "meta_text_top_right",
+        "text": null,
+        "x": 55.0,
+        "y": 4.0,
+        "w": 38.0,
+        "h": 6.0,
+        "rotation": 0.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "sans-serif"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "p_cl",
+        "type": "photo",
+        "slot": "photo_center_left",
+        "text": null,
+        "x": 6.0,
+        "y": 18.0,
+        "w": 24.0,
+        "h": 16.0,
+        "rotation": 0.0,
+        "z_index": 6,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "p_cm",
+        "type": "photo",
+        "slot": "photo_center_mid",
+        "text": null,
+        "x": 34.0,
+        "y": 18.0,
+        "w": 26.0,
+        "h": 16.0,
+        "rotation": 0.0,
+        "z_index": 6,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "p_cr",
+        "type": "photo",
+        "slot": "photo_center_right",
+        "text": null,
+        "x": 64.0,
+        "y": 18.0,
+        "w": 28.0,
+        "h": 16.0,
+        "rotation": 0.0,
+        "z_index": 6,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_cl",
+        "type": "sticker",
+        "slot": "sticker_center_left",
+        "text": null,
+        "x": 2.0,
+        "y": 38.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_cr",
+        "type": "sticker",
+        "slot": "sticker_center_right",
+        "text": null,
+        "x": 86.0,
+        "y": 38.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "banner_title",
+        "type": "title",
+        "slot": "prominent_banner_title",
+        "text": null,
+        "x": 18.0,
+        "y": 42.0,
+        "w": 64.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 16,
+        "css": {
+          "font-family": "Impact, sans-serif",
+          "font-size": "32px",
+          "text-align": "center"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "d_ml",
+        "type": "doodle",
+        "slot": "doodle_mid_left",
+        "text": null,
+        "x": 4.0,
+        "y": 55.0,
+        "w": 12.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 10,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_mc",
+        "type": "person_cutout",
+        "slot": "person_cutout_mid_center",
+        "text": null,
+        "x": 22.0,
+        "y": 54.0,
+        "w": 22.0,
+        "h": 24.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "d_mr",
+        "type": "doodle",
+        "slot": "doodle_mid_right",
+        "text": null,
+        "x": 50.0,
+        "y": 56.0,
+        "w": 12.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 10,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_bl",
+        "type": "sticker",
+        "slot": "sticker_bottom_left",
+        "text": null,
+        "x": 2.0,
+        "y": 80.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_bm",
+        "type": "sticker",
+        "slot": "sticker_bottom_mid",
+        "text": null,
+        "x": 20.0,
+        "y": 82.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_br",
+        "type": "person_cutout",
+        "slot": "person_cutout_bottom_right",
+        "text": null,
+        "x": 68.0,
+        "y": 54.0,
+        "w": 26.0,
+        "h": 24.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "compliments_para",
+        "type": "paragraph",
+        "slot": "pet_compliments_paragraph",
+        "text": null,
+        "x": 38.0,
+        "y": 80.0,
+        "w": 56.0,
+        "h": 16.0,
+        "rotation": 0.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "20px"
+        },
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_08_stringlight_film",
+    "name": "Stringlight Filmstrip Pet Room",
+    "category": "Album Cover & Collage",
+    "source_file": "Template 2.json",
+    "canvas": {
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "background_color": "#D3CEBA",
+    "elements": [
+      {
+        "id": "stringlight_element",
+        "type": "photo_group",
+        "slot": "stringlight_hanging_polaroids_group",
+        "text": null,
+        "x": 0.0,
+        "y": 0.0,
+        "w": 100.0,
+        "h": 14.0,
+        "rotation": 0.0,
+        "z_index": 8,
+        "css": {
+          "border-bottom": "2px dashed #FFFFAF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "film_v_l",
+        "type": "film_strip",
+        "slot": "filmstrip_vertical_left",
+        "text": null,
+        "x": -6.0,
+        "y": 14.0,
+        "w": 28.0,
+        "h": 86.0,
+        "rotation": -8.0,
+        "z_index": 5,
+        "css": {
+          "background-color": "#000"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_tc",
+        "type": "sticker",
+        "slot": "sticker_top_center",
+        "text": null,
+        "x": 38.0,
+        "y": 16.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "comp_b1",
+        "type": "text",
+        "slot": "text_compliment_bubble_1",
+        "text": null,
+        "x": 48.0,
+        "y": 15.0,
+        "w": 22.0,
+        "h": 5.0,
+        "rotation": 8.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "acc_b1",
+        "type": "icon",
+        "slot": "badge_cute_acc_1",
+        "text": null,
+        "x": 72.0,
+        "y": 15.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 14,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "comp_b2",
+        "type": "text",
+        "slot": "text_compliment_bubble_2",
+        "text": null,
+        "x": 26.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 5.0,
+        "rotation": -5.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "pet_cut_c",
+        "type": "photo",
+        "slot": "pet_image_cutout_center",
+        "text": null,
+        "x": 48.0,
+        "y": 26.0,
+        "w": 24.0,
+        "h": 16.0,
+        "rotation": 0.0,
+        "z_index": 6,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "comp_b3",
+        "type": "text",
+        "slot": "text_compliment_bubble_3",
+        "text": null,
+        "x": 76.0,
+        "y": 27.0,
+        "w": 22.0,
+        "h": 5.0,
+        "rotation": 6.0,
+        "z_index": 12,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_ml",
+        "type": "sticker",
+        "slot": "sticker_mid_left",
+        "text": null,
+        "x": 28.0,
+        "y": 44.0,
+        "w": 12.0,
+        "h": 9.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "acc_b2",
+        "type": "icon",
+        "slot": "badge_cute_acc_2",
+        "text": null,
+        "x": 62.0,
+        "y": 42.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 14,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "long_comp_c",
+        "type": "paragraph",
+        "slot": "long_compliment_text_center",
+        "text": null,
+        "x": 42.0,
+        "y": 48.0,
+        "w": 25.0,
+        "h": 18.0,
+        "rotation": 0.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "18px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "owner_composite",
+        "type": "person_cutout",
+        "slot": "pet_owner_composite_cutout",
+        "text": null,
+        "x": 70.0,
+        "y": 50.0,
+        "w": 26.0,
+        "h": 22.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {
+          "border": "4px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "comp_b4",
+        "type": "text",
+        "slot": "text_compliment_bubble_4",
+        "text": null,
+        "x": 58.0,
+        "y": 68.0,
+        "w": 20.0,
+        "h": 5.0,
+        "rotation": 4.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "pet_cut_b",
+        "type": "photo",
+        "slot": "pet_image_cutout_bottom",
+        "text": null,
+        "x": 28.0,
+        "y": 68.0,
+        "w": 28.0,
+        "h": 22.0,
+        "rotation": 0.0,
+        "z_index": 6,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "comp_b5",
+        "type": "text",
+        "slot": "text_compliment_bubble_5",
+        "text": null,
+        "x": 70.0,
+        "y": 75.0,
+        "w": 24.0,
+        "h": 5.0,
+        "rotation": -3.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "music_card_container",
+        "type": "music_card",
+        "slot": null,
+        "text": null,
+        "x": 62.0,
+        "y": 81.0,
+        "w": 36.0,
+        "h": 18.0,
+        "rotation": 0.0,
+        "z_index": 16,
+        "css": {
+          "background-color": "#FFF",
+          "border-radius": "30px",
+          "padding": "10px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "music_cover_p8",
+        "type": "song_cover",
+        "slot": "song_cover",
+        "text": null,
+        "x": 64.0,
+        "y": 82.0,
+        "w": 32.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 17,
+        "css": {
+          "background-color": "#D6A3FB",
+          "border-radius": "20px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "music_meta_p8",
+        "type": "text",
+        "slot": "song_name_artist",
+        "text": null,
+        "x": 64.0,
+        "y": 95.0,
+        "w": 30.0,
+        "h": 3.0,
+        "rotation": 0.0,
+        "z_index": 18,
+        "css": {
+          "font-family": "sans-serif",
+          "font-size": "14px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "d_bm",
+        "type": "doodle",
+        "slot": "doodle_bottom_mid",
+        "text": null,
+        "x": 48.0,
+        "y": 91.0,
+        "w": 12.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 10,
+        "css": {
+          "border": "2px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_09_forever_text_collage",
+    "name": "My Forever Text Heavy Mosaic",
+    "category": "Collage",
+    "source_file": "Template 2.json",
+    "canvas": {
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "background_color": "#DCD6C0",
+    "elements": [
+      {
+        "id": "st_tl",
+        "type": "sticker",
+        "slot": "top_left_sticker",
+        "text": null,
+        "x": 6.0,
+        "y": 4.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "header_title",
+        "type": "title",
+        "slot": "forever_header_title",
+        "text": null,
+        "x": 24.0,
+        "y": 5.0,
+        "w": 54.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 16,
+        "css": {
+          "font-family": "Impact, sans-serif",
+          "font-size": "36px",
+          "text-align": "center"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_tr",
+        "type": "sticker",
+        "slot": "top_right_sticker",
+        "text": null,
+        "x": 82.0,
+        "y": 4.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "mosaic_text_block_1",
+        "type": "paragraph",
+        "slot": "compliment_text_mosaic_group",
+        "text": null,
+        "x": 6.0,
+        "y": 18.0,
+        "w": 42.0,
+        "h": 14.0,
+        "rotation": -2.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "20px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "mosaic_text_block_2",
+        "type": "paragraph",
+        "slot": "compliment_text_mosaic_group",
+        "text": null,
+        "x": 52.0,
+        "y": 18.0,
+        "w": 42.0,
+        "h": 14.0,
+        "rotation": 3.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "20px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "main_composite_cutout",
+        "type": "person_cutout",
+        "slot": "pet_owner_main_cutout_composite",
+        "text": null,
+        "x": 10.0,
+        "y": 36.0,
+        "w": 80.0,
+        "h": 42.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {
+          "border": "5px solid #FFF",
+          "background-color": "#C4BEA8"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "st_bl",
+        "type": "sticker",
+        "slot": "bottom_left_sticker",
+        "text": null,
+        "x": 6.0,
+        "y": 82.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "mosaic_text_block_3",
+        "type": "paragraph",
+        "slot": "compliment_text_mosaic_group",
+        "text": null,
+        "x": 24.0,
+        "y": 82.0,
+        "w": 70.0,
+        "h": 14.0,
+        "rotation": -1.0,
+        "z_index": 12,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "18px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "d_accent_b",
+        "type": "doodle",
+        "slot": "doodle_accent_bottom",
+        "text": null,
+        "x": 48.0,
+        "y": 97.0,
+        "w": 12.0,
+        "h": 2.5,
+        "rotation": 0.0,
+        "z_index": 10,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_3_page_1",
+    "name": "Cozy Diary & Polaroid Scrapbook",
+    "category": "Memory Weave - Portrait templates -3.pdf",
+    "source_file": "Template 3.json",
+    "canvas": {
+      "width_px": 1200,
+      "height_px": 1600
+    },
+    "background_color": "#E1DCD0",
+    "elements": [
+      {
+        "id": "photo_polaroid_top_left",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 10.0,
+        "w": 35.0,
+        "h": 30.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {
+          "background-color": "#FDFBF7"
+        },
+        "style_preset": "polaroid_with_heart",
+        "children": [
+          {
+            "id": "deco_top_center",
+            "type": "washi_tape",
+            "slot": null,
+            "text": null,
+            "x": 44.0,
+            "y": -6.0,
+            "w": 12.0,
+            "h": 12.0,
+            "rotation": -15.0,
+            "z_index": 4,
+            "css": {
+              "background-color": "#B8B5C0"
+            },
+            "style_preset": null,
+            "children": []
+          },
+          {
+            "id": "deco_bottom_right",
+            "type": "heart_icon",
+            "slot": null,
+            "text": null,
+            "x": 94.0,
+            "y": 94.0,
+            "w": 12.0,
+            "h": 12.0,
+            "rotation": 0.0,
+            "z_index": 3,
+            "css": {
+              "background-color": "#000000"
+            },
+            "style_preset": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "sticker_top_left_s",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 33.0,
+        "y": 15.0,
+        "w": 8.0,
+        "h": 6.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "circle",
+        "children": []
+      },
+      {
+        "id": "sticker_top_right_large",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 78.0,
+        "y": 3.0,
+        "w": 18.0,
+        "h": 13.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "circle",
+        "children": []
+      },
+      {
+        "id": "text_block_top_right",
+        "type": "text_area",
+        "slot": null,
+        "text": "FUNNY CUTE\nHandwritten\nTEXTS!",
+        "x": 45.0,
+        "y": 18.0,
+        "w": 48.0,
+        "h": 32.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "handwritten_card",
+        "children": []
+      },
+      {
+        "id": "text_block_center_left",
+        "type": "text_area",
+        "slot": null,
+        "text": "FUNNY CUTE\nHandwritten\nTEXTS!",
+        "x": 8.0,
+        "y": 48.0,
+        "w": 35.0,
+        "h": 15.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "handwritten_freestyle",
+        "children": []
+      },
+      {
+        "id": "sticker_center_left_purple",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 0.0,
+        "y": 62.0,
+        "w": 16.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "circle",
+        "children": []
+      },
+      {
+        "id": "photo_polaroid_center_right",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 46.0,
+        "y": 50.0,
+        "w": 38.0,
+        "h": 30.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {
+          "background-color": "#FDFBF7"
+        },
+        "style_preset": "polaroid_with_heart",
+        "children": [
+          {
+            "id": "deco_top_right",
+            "type": "washi_tape",
+            "slot": null,
+            "text": null,
+            "x": 94.0,
+            "y": -6.0,
+            "w": 12.0,
+            "h": 12.0,
+            "rotation": 30.0,
+            "z_index": 4,
+            "css": {
+              "background-color": "#B8B5C0"
+            },
+            "style_preset": null,
+            "children": []
+          },
+          {
+            "id": "deco_bottom_right",
+            "type": "heart_icon",
+            "slot": null,
+            "text": null,
+            "x": 94.0,
+            "y": 94.0,
+            "w": 12.0,
+            "h": 12.0,
+            "rotation": 0.0,
+            "z_index": 3,
+            "css": {
+              "background-color": "#000000"
+            },
+            "style_preset": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "photo_polaroid_bottom_center",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 18.0,
+        "y": 70.0,
+        "w": 38.0,
+        "h": 30.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {
+          "background-color": "#FDFBF7"
+        },
+        "style_preset": "polaroid_with_heart",
+        "children": [
+          {
+            "id": "deco_bottom_right",
+            "type": "heart_icon",
+            "slot": null,
+            "text": null,
+            "x": 94.0,
+            "y": 94.0,
+            "w": 12.0,
+            "h": 12.0,
+            "rotation": 0.0,
+            "z_index": 4,
+            "css": {
+              "background-color": "#000000"
+            },
+            "style_preset": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "doodle_bottom_right_large",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 75.0,
+        "y": 83.0,
+        "w": 25.0,
+        "h": 18.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "circle",
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_3_page_2",
+    "name": "Instant Camera Polaroid Cascade",
+    "category": "Memory Weave - Portrait templates -3.pdf",
+    "source_file": "Template 3.json",
+    "canvas": {
+      "width_px": 1200,
+      "height_px": 1600
+    },
+    "background_color": "#D2CFC2",
+    "elements": [
+      {
+        "id": "polaroid_grid_container",
+        "type": "composite_group",
+        "slot": null,
+        "text": null,
+        "x": 0,
+        "y": 0,
+        "w": 10.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "illustration_instant_camera",
+        "type": "graphic_element",
+        "slot": null,
+        "text": null,
+        "x": 28.0,
+        "y": 62.0,
+        "w": 68.0,
+        "h": 38.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "pastel_green_instax",
+        "children": []
+      },
+      {
+        "id": "doodle_square_bottom_left",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 2.0,
+        "y": 75.0,
+        "w": 30.0,
+        "h": 22.0,
+        "rotation": 0.0,
+        "z_index": 4,
+        "css": {},
+        "style_preset": "square_card",
+        "children": []
+      },
+      {
+        "id": "sparkle_accent",
+        "type": "vector_graphic",
+        "slot": null,
+        "text": null,
+        "x": 27.0,
+        "y": 59.0,
+        "w": 6.0,
+        "h": 6.0,
+        "rotation": 0.0,
+        "z_index": 4,
+        "css": {},
+        "style_preset": "four_point_star",
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_4_page_1",
+    "name": "Romantic Snippets & Cutouts",
+    "category": "Memory Weave - Portrait templates 4.pdf",
+    "source_file": "Template 4.json",
+    "canvas": {
+      "width_px": 1200,
+      "height_px": 1600
+    },
+    "background_color": "#DDD9CE",
+    "elements": [
+      {
+        "id": "polaroid_top_left",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 0.0,
+        "y": 2.0,
+        "w": 52.0,
+        "h": 38.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "polaroid_with_heart",
+        "children": [
+          {
+            "id": "love_text",
+            "type": "text_label",
+            "slot": null,
+            "text": "Love text",
+            "x": 6.0,
+            "y": 4.0,
+            "w": 10.0,
+            "h": 10.0,
+            "rotation": 0.0,
+            "z_index": 1,
+            "css": {},
+            "style_preset": null,
+            "children": []
+          },
+          {
+            "id": "cutout_image_green",
+            "type": "image_placeholder",
+            "slot": null,
+            "text": "Cutout Image",
+            "x": 12.0,
+            "y": 10.0,
+            "w": 27.0,
+            "h": 22.0,
+            "rotation": 0.0,
+            "z_index": 1,
+            "css": {
+              "background-color": "#39B54A"
+            },
+            "style_preset": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "doodle_dashed_top",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 40.0,
+        "y": 1.0,
+        "w": 10.0,
+        "h": 13.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "dashed_box",
+        "children": []
+      },
+      {
+        "id": "meta_timestamp",
+        "type": "text_area",
+        "slot": null,
+        "text": "Timestamp, date, occassion",
+        "x": 62.0,
+        "y": 13.0,
+        "w": 25.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_circle_top_right",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 83.0,
+        "y": 0.0,
+        "w": 17.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "circle",
+        "children": []
+      },
+      {
+        "id": "text_snippets_middle",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments, extracted from a page cutout text innum text texts",
+        "x": 58.0,
+        "y": 34.0,
+        "w": 35.0,
+        "h": 32.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "large_image_cutout_left",
+        "type": "image_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 0.0,
+        "y": 45.0,
+        "w": 36.0,
+        "h": 49.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "dashed_cutout",
+        "children": []
+      },
+      {
+        "id": "sticker_center_purple_s",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 28.0,
+        "y": 44.0,
+        "w": 17.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "circle",
+        "children": []
+      },
+      {
+        "id": "photo_polaroid_her",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 62.0,
+        "y": 70.0,
+        "w": 36.0,
+        "h": 30.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "polaroid_dark",
+        "children": []
+      },
+      {
+        "id": "doodle_rotated_bottom",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 29.0,
+        "y": 86.0,
+        "w": 12.0,
+        "h": 14.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "dashed_box_rotated",
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_4_page_2",
+    "name": "His & Theirs Story Spread",
+    "category": "Memory Weave - Portrait templates 4.pdf",
+    "source_file": "Template 4.json",
+    "canvas": {
+      "width_px": 1200,
+      "height_px": 1600
+    },
+    "background_color": "#E5E2D9",
+    "elements": [
+      {
+        "id": "handwritten_love_header",
+        "type": "text_area",
+        "slot": null,
+        "text": "Handwritten text of lovesss",
+        "x": 5.0,
+        "y": 2.0,
+        "w": 40.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_top_right_accent",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 70.0,
+        "y": 1.0,
+        "w": 15.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "sketch",
+        "children": []
+      },
+      {
+        "id": "photo_grid_top_left",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 12.0,
+        "w": 30.0,
+        "h": 20.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "photo_grid_top_right",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 40.0,
+        "y": 12.0,
+        "w": 30.0,
+        "h": 20.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "text_oo_fragments",
+        "type": "text_area",
+        "slot": null,
+        "text": "texts oo\ntexts",
+        "x": 75.0,
+        "y": 15.0,
+        "w": 20.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "photo_focus_him",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 35.0,
+        "w": 45.0,
+        "h": 30.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "text_compliments_mid_right",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments",
+        "x": 55.0,
+        "y": 38.0,
+        "w": 40.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "text_cutout_block_mid",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments, extracted from a page cutout",
+        "x": 55.0,
+        "y": 52.0,
+        "w": 40.0,
+        "h": 15.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_center_mid",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 10.0,
+        "y": 68.0,
+        "w": 25.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "sketch",
+        "children": []
+      },
+      {
+        "id": "text_love_compliments_lower",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments or something for Love",
+        "x": 45.0,
+        "y": 70.0,
+        "w": 50.0,
+        "h": 15.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_bottom_left_footer",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 88.0,
+        "w": 20.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "abstract",
+        "children": []
+      },
+      {
+        "id": "text_footer_compliments",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments",
+        "x": 35.0,
+        "y": 88.0,
+        "w": 40.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_4_page_3",
+    "name": "Proposal & Togetherness Gallery",
+    "category": "Memory Weave - Portrait templates 4.pdf",
+    "source_file": "Template 4.json",
+    "canvas": {
+      "width_px": 1200,
+      "height_px": 1600
+    },
+    "background_color": "#DFDBD0",
+    "elements": [
+      {
+        "id": "text_header_snippets",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments",
+        "x": 5.0,
+        "y": 2.0,
+        "w": 45.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_rose_top",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 60.0,
+        "y": 1.0,
+        "w": 35.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "floral_rose",
+        "children": []
+      },
+      {
+        "id": "photo_together_1",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 12.0,
+        "w": 42.0,
+        "h": 25.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_rose_mid",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 52.0,
+        "y": 15.0,
+        "w": 43.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "floral_rose",
+        "children": []
+      },
+      {
+        "id": "text_mid_compliments",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments",
+        "x": 52.0,
+        "y": 28.0,
+        "w": 43.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "photo_together_2",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 40.0,
+        "w": 42.0,
+        "h": 25.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_bouquet",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 52.0,
+        "y": 40.0,
+        "w": 43.0,
+        "h": 15.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "bouquet",
+        "children": []
+      },
+      {
+        "id": "sticker_rose_lower",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 52.0,
+        "y": 58.0,
+        "w": 43.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "floral_rose",
+        "children": []
+      },
+      {
+        "id": "doodle_mid_right",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 75.0,
+        "y": 70.0,
+        "w": 20.0,
+        "h": 6.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "sketch",
+        "children": []
+      },
+      {
+        "id": "cutout_lifesize_1",
+        "type": "image_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 70.0,
+        "w": 40.0,
+        "h": 28.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "lifesize_cutout",
+        "children": []
+      },
+      {
+        "id": "photo_together_3",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 50.0,
+        "y": 78.0,
+        "w": 22.0,
+        "h": 18.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "photo_together_4",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 75.0,
+        "y": 78.0,
+        "w": 22.0,
+        "h": 18.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_4_page_4",
+    "name": "The Ring & Proposal Lifesize Spread",
+    "category": "Memory Weave - Portrait templates 4.pdf",
+    "source_file": "Template 4.json",
+    "canvas": {
+      "width_px": 1200,
+      "height_px": 1600
+    },
+    "background_color": "#DDD9CE",
+    "elements": [
+      {
+        "id": "photo_proposal",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 2.0,
+        "w": 50.0,
+        "h": 30.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "text_proposal_compliments",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments",
+        "x": 60.0,
+        "y": 5.0,
+        "w": 35.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_upper_right",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 70.0,
+        "y": 20.0,
+        "w": 20.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "accent",
+        "children": []
+      },
+      {
+        "id": "cutout_lifesize_ring",
+        "type": "image_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 35.0,
+        "w": 45.0,
+        "h": 35.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "lifesize_cutout_closeup",
+        "children": []
+      },
+      {
+        "id": "photo_together_final",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 55.0,
+        "y": 35.0,
+        "w": 40.0,
+        "h": 25.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "text_mid_lower_compliments",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments",
+        "x": 55.0,
+        "y": 62.0,
+        "w": 40.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_rose_final",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 74.0,
+        "w": 45.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "floral_rose",
+        "children": []
+      },
+      {
+        "id": "text_bottom_compliments",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments",
+        "x": 55.0,
+        "y": 74.0,
+        "w": 40.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_lifesize_final",
+        "type": "image_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 86.0,
+        "w": 40.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "lifesize_cutout",
+        "children": []
+      },
+      {
+        "id": "doodle_bottom_left",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 50.0,
+        "y": 86.0,
+        "w": 20.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "decorative",
+        "children": []
+      },
+      {
+        "id": "doodle_bottom_right",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 75.0,
+        "y": 86.0,
+        "w": 20.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "decorative",
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_4_page_5",
+    "name": "Endless Love Diary Finale",
+    "category": "Memory Weave - Portrait templates 4.pdf",
+    "source_file": "Template 4.json",
+    "canvas": {
+      "width_px": 1200,
+      "height_px": 1600
+    },
+    "background_color": "#E3E0D6",
+    "elements": [
+      {
+        "id": "text_block_main_diary",
+        "type": "text_area",
+        "slot": null,
+        "text": "Handwritten, love texts\noo text\ntext\ntext",
+        "x": 5.0,
+        "y": 5.0,
+        "w": 90.0,
+        "h": 35.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "dense_handwritten_love",
+        "children": []
+      },
+      {
+        "id": "image_cutout_bottom_left",
+        "type": "image_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 45.0,
+        "w": 45.0,
+        "h": 35.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "organic_cutout",
+        "children": []
+      },
+      {
+        "id": "text_bottom_right_meta",
+        "type": "text_area",
+        "slot": null,
+        "text": "text\ntext",
+        "x": 60.0,
+        "y": 50.0,
+        "w": 35.0,
+        "h": 15.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_center_bottom_1",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 10.0,
+        "y": 85.0,
+        "w": 35.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "sketch",
+        "children": []
+      },
+      {
+        "id": "doodle_center_bottom_2",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 55.0,
+        "y": 85.0,
+        "w": 35.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "sketch",
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_5_page_1",
+    "name": "Parallel Scenery Split & Cutouts",
+    "category": "Memory Weave - Portrait templates -5.pdf",
+    "source_file": "Template 5.json",
+    "canvas": {
+      "width_px": 1200,
+      "height_px": 1600
+    },
+    "background_color": "#FFFFFF",
+    "elements": [
+      {
+        "id": "main_timestamp_category",
+        "type": "text_label",
+        "slot": null,
+        "text": "Main Timestamp or Category",
+        "x": 20.0,
+        "y": 2.0,
+        "w": 50.0,
+        "h": 5.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "header_clean",
+        "children": []
+      },
+      {
+        "id": "text_snippets_upper_left",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments",
+        "x": 20.0,
+        "y": 8.0,
+        "w": 35.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "handwritten_snippet",
+        "children": []
+      },
+      {
+        "id": "image_cutout_emerging",
+        "type": "image_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 55.0,
+        "y": 5.0,
+        "w": 40.0,
+        "h": 35.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "dimensional_cutout",
+        "children": []
+      },
+      {
+        "id": "notification_text_1",
+        "type": "ui_element",
+        "slot": null,
+        "text": "Notification text",
+        "x": 20.0,
+        "y": 20.0,
+        "w": 30.0,
+        "h": 4.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "notification_bubble",
+        "children": []
+      },
+      {
+        "id": "notification_text_2",
+        "type": "ui_element",
+        "slot": null,
+        "text": "Notification text",
+        "x": 20.0,
+        "y": 25.0,
+        "w": 30.0,
+        "h": 4.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "notification_bubble",
+        "children": []
+      },
+      {
+        "id": "photo_polaroid_cluster_left",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 18.0,
+        "y": 34.0,
+        "w": 32.0,
+        "h": 25.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "polaroid_tilted_with_heart",
+        "children": []
+      },
+      {
+        "id": "photo_polaroid_cluster_right",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 48.0,
+        "y": 34.0,
+        "w": 32.0,
+        "h": 25.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "polaroid_flat_with_heart",
+        "children": []
+      },
+      {
+        "id": "sticker_upper_left_purple",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 32.0,
+        "w": 18.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 4,
+        "css": {},
+        "style_preset": "circle",
+        "children": []
+      },
+      {
+        "id": "text_snippets_mid_left",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments",
+        "x": 22.0,
+        "y": 52.0,
+        "w": 32.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "handwritten_snippet",
+        "children": []
+      },
+      {
+        "id": "text_snippets_mid_right",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments",
+        "x": 58.0,
+        "y": 54.0,
+        "w": 32.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "handwritten_snippet",
+        "children": []
+      },
+      {
+        "id": "text_snippets_lower_left_overlay",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliments",
+        "x": 15.0,
+        "y": 68.0,
+        "w": 30.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "handwritten_snippet",
+        "children": []
+      },
+      {
+        "id": "doodle_mid_right_blue",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 65.0,
+        "y": 65.0,
+        "w": 22.0,
+        "h": 15.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "solid_circle",
+        "children": []
+      },
+      {
+        "id": "image_cutout_facing_left",
+        "type": "image_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 15.0,
+        "y": 75.0,
+        "w": 50.0,
+        "h": 23.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": "large_dashed_box_cutout",
+        "children": []
+      },
+      {
+        "id": "leaf_line_doodle_bottom_right",
+        "type": "vector_graphic",
+        "slot": null,
+        "text": null,
+        "x": 65.0,
+        "y": 78.0,
+        "w": 30.0,
+        "h": 20.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "botanical_line_art",
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_5_page_2",
+    "name": "Wall of Photos & Long Memoir Spread",
+    "category": "Memory Weave - Portrait templates -5.pdf",
+    "source_file": "Template 5.json",
+    "canvas": {
+      "width_px": 1200,
+      "height_px": 1600
+    },
+    "background_color": "#E5E1D7",
+    "elements": [
+      {
+        "id": "photo_wall_collage_container",
+        "type": "composite_group",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 2.0,
+        "w": 90.0,
+        "h": 45.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_upper_mid_purple",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 45.0,
+        "y": 28.0,
+        "w": 12.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "circle",
+        "children": []
+      },
+      {
+        "id": "doodle_mid_center_1",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 10.0,
+        "y": 46.0,
+        "w": 15.0,
+        "h": 6.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "abstract",
+        "children": []
+      },
+      {
+        "id": "doodle_mid_center_2",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 30.0,
+        "y": 46.0,
+        "w": 15.0,
+        "h": 6.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "abstract",
+        "children": []
+      },
+      {
+        "id": "image_placeholder_mid_left",
+        "type": "image_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 54.0,
+        "w": 25.0,
+        "h": 15.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "image_placeholder_mid_center",
+        "type": "image_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 33.0,
+        "y": 54.0,
+        "w": 25.0,
+        "h": 15.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_mid_right_sketch",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 62.0,
+        "y": 54.0,
+        "w": 15.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "sketch",
+        "children": []
+      },
+      {
+        "id": "doodle_mid_right_sketch_2",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": null,
+        "x": 80.0,
+        "y": 54.0,
+        "w": 15.0,
+        "h": 8.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "sketch",
+        "children": []
+      },
+      {
+        "id": "long_memoir_diary_rectangle",
+        "type": "text_area",
+        "slot": null,
+        "text": "Handwritten memoir texts as if extracted from a diary page, they are supposed to be long as this rectangle, later dont forget to adjust the fonts okay????, give it a nice bg, ok",
+        "x": 5.0,
+        "y": 72.0,
+        "w": 55.0,
+        "h": 25.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "resizable_diary_paragraph",
+        "children": []
+      },
+      {
+        "id": "question_mark_sticker_1",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 63.0,
+        "y": 73.0,
+        "w": 10.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "handdrawn_glyph",
+        "children": []
+      },
+      {
+        "id": "question_mark_sticker_2",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 63.0,
+        "y": 78.0,
+        "w": 10.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "handdrawn_glyph",
+        "children": []
+      },
+      {
+        "id": "question_mark_sticker_3",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 63.0,
+        "y": 83.0,
+        "w": 10.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "handdrawn_glyph",
+        "children": []
+      },
+      {
+        "id": "sticker_lower_right_purple",
+        "type": "sticker",
+        "slot": null,
+        "text": null,
+        "x": 75.0,
+        "y": 72.0,
+        "w": 16.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "circle",
+        "children": []
+      },
+      {
+        "id": "small_quote_text_box",
+        "type": "text_area",
+        "slot": null,
+        "text": "Small Quote text 7",
+        "x": 70.0,
+        "y": 84.0,
+        "w": 25.0,
+        "h": 6.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "quote_callout",
+        "children": []
+      },
+      {
+        "id": "doodle_bottom_right_accent",
+        "type": "doodle_placeholder",
+        "slot": null,
+        "text": "red da Doodle",
+        "x": 72.0,
+        "y": 92.0,
+        "w": 23.0,
+        "h": 6.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": "abstract",
+        "children": []
+      }
+    ]
+  },
+  {
+    "template_id": "mw_portrait_5_page_3",
+    "name": "Torn Paper Snippets Gallery",
+    "category": "Memory Weave - Portrait templates -5.pdf",
+    "source_file": "Template 5.json",
+    "canvas": {
+      "width_px": 1200,
+      "height_px": 1600
+    },
+    "background_color": "#DCD7CB",
+    "elements": [
+      {
+        "id": "photo_main_top_right",
+        "type": "photo_frame",
+        "slot": null,
+        "text": null,
+        "x": 45.0,
+        "y": 2.0,
+        "w": 50.0,
+        "h": 32.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "abstract_doodle_upper_left_cluster",
+        "type": "composite_group",
+        "slot": null,
+        "text": null,
+        "x": 2.0,
+        "y": 2.0,
+        "w": 40.0,
+        "h": 35.0,
+        "rotation": 0.0,
+        "z_index": 2,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "torn_paper_cutout_center",
+        "type": "text_area",
+        "slot": null,
+        "text": "Snippets of texts/ compliment, ing placed in a torn papered moutout",
+        "x": 10.0,
+        "y": 40.0,
+        "w": 80.0,
+        "h": 18.0,
+        "rotation": 0.0,
+        "z_index": 3,
+        "css": {},
+        "style_preset": "torn_paper_overlay",
+        "children": []
+      },
+      {
+        "id": "photo_triple_grid_bottom",
+        "type": "composite_group",
+        "slot": null,
+        "text": null,
+        "x": 5.0,
+        "y": 62.0,
+        "w": 90.0,
+        "h": 35.0,
+        "rotation": 0.0,
+        "z_index": 1,
+        "css": {},
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  }
+]

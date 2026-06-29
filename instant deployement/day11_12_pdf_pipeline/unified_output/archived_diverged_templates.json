@@ -1,0 +1,362 @@
+[
+  {
+    "template_id": "mw_portrait_02_music_heavy__archived_v1",
+    "name": "Editorial Music Card Collage",
+    "category": "Album Cover & Collage",
+    "source_file": "Template 1.json (ARCHIVED - diverged from Template 2.json)",
+    "canvas": {
+      "width_px": 1080,
+      "height_px": 1350
+    },
+    "background_color": "#D3CEBA",
+    "elements": [
+      {
+        "id": "polaroid_tl",
+        "type": "polaroid",
+        "slot": "polaroid_top_left",
+        "text": null,
+        "x": 0.0,
+        "y": 1.0,
+        "w": 34.0,
+        "h": 18.0,
+        "rotation": -5.0,
+        "z_index": 10,
+        "css": {
+          "background-color": "#222",
+          "border": "12px solid #FFF",
+          "box-shadow": "0 4px 10px rgba(0,0,0,0.3)"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_tc",
+        "type": "sticker",
+        "slot": "sticker_top_center",
+        "text": null,
+        "x": 39.0,
+        "y": -3.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 20,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_tr",
+        "type": "person_cutout",
+        "slot": "person_cutout_top_right",
+        "text": null,
+        "x": 55.0,
+        "y": 0.0,
+        "w": 19.0,
+        "h": 13.0,
+        "rotation": 0.0,
+        "z_index": 6,
+        "css": {
+          "background-color": "#C4C0AC"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "film_strip_r",
+        "type": "film_strip",
+        "slot": "film_strip_right",
+        "text": null,
+        "x": 68.0,
+        "y": -8.0,
+        "w": 35.0,
+        "h": 35.0,
+        "rotation": 28.0,
+        "z_index": 5,
+        "css": {
+          "background-color": "#000"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "text_img_box",
+        "type": "paragraph",
+        "slot": "text_image_box",
+        "text": null,
+        "x": 42.0,
+        "y": 12.0,
+        "w": 21.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 11,
+        "css": {
+          "background-color": "#C4C0AC",
+          "border": "3px solid #FFF",
+          "padding": "10px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "torn_img",
+        "type": "torn_photo",
+        "slot": "torn_style_image",
+        "text": null,
+        "x": 64.0,
+        "y": 14.0,
+        "w": 35.0,
+        "h": 12.0,
+        "rotation": 0.0,
+        "z_index": 9,
+        "css": {
+          "background-color": "#C4C0AC",
+          "border": "3px solid #FFF"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_ml1",
+        "type": "sticker",
+        "slot": "sticker_mid_left",
+        "text": null,
+        "x": 4.0,
+        "y": 23.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 22,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "title_main",
+        "type": "title",
+        "slot": "main_title",
+        "text": null,
+        "x": 12.0,
+        "y": 35.0,
+        "w": 84.0,
+        "h": 10.0,
+        "rotation": 0.0,
+        "z_index": 15,
+        "css": {
+          "font-family": "Impact, sans-serif",
+          "font-size": "70px",
+          "letter-spacing": "15px",
+          "text-align": "center"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_ml2",
+        "type": "sticker",
+        "slot": "sticker_mid_left_2",
+        "text": null,
+        "x": 3.0,
+        "y": 48.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 22,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_c",
+        "type": "sticker",
+        "slot": "sticker_center",
+        "text": null,
+        "x": 34.0,
+        "y": 52.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 22,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "quote_mr",
+        "type": "paragraph",
+        "slot": "motivational_quote_mid_right",
+        "text": null,
+        "x": 55.0,
+        "y": 48.0,
+        "w": 38.0,
+        "h": 11.0,
+        "rotation": -4.0,
+        "z_index": 16,
+        "css": {
+          "font-family": "Architects Daughter, cursive",
+          "font-size": "22px",
+          "text-align": "center"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "doodle_lm",
+        "type": "doodle",
+        "slot": "doodle_left_mid",
+        "text": null,
+        "x": 8.0,
+        "y": 58.0,
+        "w": 11.0,
+        "h": 11.0,
+        "rotation": 90.0,
+        "z_index": 14,
+        "css": {
+          "border": "2px solid #FFF",
+          "background-color": "#C4C0AC"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "music_player_card",
+        "type": "music_card",
+        "slot": null,
+        "text": null,
+        "x": 14.0,
+        "y": 64.0,
+        "w": 42.0,
+        "h": 34.0,
+        "rotation": 0.0,
+        "z_index": 18,
+        "css": {
+          "background-color": "#FFF",
+          "border-radius": "40px",
+          "padding": "20px",
+          "box-shadow": "0 10px 25px rgba(0,0,0,0.1)"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "music_cover_img",
+        "type": "song_cover",
+        "slot": "song_cover",
+        "text": null,
+        "x": 17.0,
+        "y": 65.0,
+        "w": 36.0,
+        "h": 22.0,
+        "rotation": 0.0,
+        "z_index": 19,
+        "css": {
+          "background-color": "#D6A3FB",
+          "border-radius": "25px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "music_meta_name",
+        "type": "text",
+        "slot": "song_name",
+        "text": null,
+        "x": 17.0,
+        "y": 91.0,
+        "w": 25.0,
+        "h": 30.0,
+        "rotation": 0.0,
+        "z_index": 20,
+        "css": {
+          "font-family": "sans-serif",
+          "font-weight": "bold",
+          "font-size": "16px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "music_meta_artist",
+        "type": "text",
+        "slot": "artist_name",
+        "text": null,
+        "x": 17.0,
+        "y": 93.5,
+        "w": 25.0,
+        "h": 30.0,
+        "rotation": 0.0,
+        "z_index": 20,
+        "css": {
+          "font-family": "sans-serif",
+          "color": "#666",
+          "font-size": "14px"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "img_sq_b",
+        "type": "photo",
+        "slot": "image_square_bottom",
+        "text": null,
+        "x": 51.0,
+        "y": 63.0,
+        "w": 20.0,
+        "h": 13.0,
+        "rotation": 0.0,
+        "z_index": 8,
+        "css": {
+          "background-color": "#C4C0AC"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "cutout_rb",
+        "type": "person_cutout",
+        "slot": "person_cutout_bottom_right",
+        "text": null,
+        "x": 71.0,
+        "y": 57.0,
+        "w": 28.0,
+        "h": 42.0,
+        "rotation": 0.0,
+        "z_index": 7,
+        "css": {
+          "background-color": "#C4C0AC"
+        },
+        "style_preset": null,
+        "children": []
+      },
+      {
+        "id": "sticker_bl",
+        "type": "sticker",
+        "slot": "sticker_bottom_left",
+        "text": null,
+        "x": -1.0,
+        "y": 90.0,
+        "w": 14.0,
+        "h": 11.0,
+        "rotation": 0.0,
+        "z_index": 22,
+        "css": {
+          "border-radius": "50%",
+          "background-color": "#D6A3FB"
+        },
+        "style_preset": null,
+        "children": []
+      }
+    ]
+  }
+]
